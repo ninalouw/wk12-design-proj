@@ -15,12 +15,36 @@ $heading-font-size: 3rem;
 $para-font-size:1.8rem;
 $hero-para-font-size: 2rem;
 $hero-h1: 10rem;
+$h2: 6rem;
+$card-h3: 5rem;
+$h1-text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
+$para-text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
 
 //sizes
 $content-width: 960px;
 $header-height:60px;
 $footer-height:90px;
 $margin-top: 50px;
+$def-margin: 10px;
+$def-padding: 10px;
+
+//home cards
+@mixin card-shadow {
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(112,108,112,1);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(112,108,112,1);
+    box-shadow: 0px 2px 6px 0px rgba(112,108,112,1);
+}
+
+@mixin btn-shadow {
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(112,108,112,1);
+-moz-box-shadow: 0px 1px 4px 0px rgba(112,108,112,1);
+box-shadow: 0px 1px 4px 0px rgba(112,108,112,1);
+}
+
+@mixin margin-padding($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+}
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .navbar, .brand {
   -moz-osx-font-smoothing: grayscale;
@@ -36,6 +60,18 @@ p, button {
     font-size: $para-font-size;
 }
 
+.btn-primary {
+    padding: 6px 12px;
+    margin: 5px;
+    color: white;
+    background-color: $button-color;
+    border: none;
+    @include btn-shadow;
+}
+.btn-primary:hover {
+    background-color: $quote-button-color;
+}
+
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -44,6 +80,9 @@ a:hover, a:focus {
 .navbar {
   border: 0;
   font-size: 16px;
+  padding:0;
+  margin:0;
+  position: absolute;
 }
 .navbar .navbar-brand {
   font-weight: 600;
@@ -107,7 +146,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   position: relative;
   color: white;
   text-align: center;
-  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: $para-text-shadow;
   vertical-align: center;
   line-height: 1.7;
   position: relative;
@@ -123,7 +162,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   font-family: $headline-font;
   color: $text-color;
   text-transform: uppercase;
-  text-shadow: -2px 2px 0px rgba(0, 0, 0, 0.3), -2px 4px 2px rgba(0, 0, 0, 0.1);
+  text-shadow: $h1-text-shadow;
 }
 
 .section-header p {
@@ -133,7 +172,63 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin: 1em 0 0.5em;
-//   max-width: 800px;
+  max-width: 80%;
 //   text-align: center;
 //   margin-left:120px;
 }
+
+//two home headings
+.content-header-1 {
+    @include card-shadow;
+    padding: $def-padding;
+    margin-bottom: 20px;
+}
+.content-header-1 h2 {
+    font-family: $headline-font;
+    font-size: $h2;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 8rem;
+    @include margin-padding($def-margin, $def-padding);
+}
+.content-header-2 h2 {
+    font-family : $text-font;
+    font-size: $h2;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding: $def-padding;
+    margin: 20px;
+}
+//styling the cards on the home page
+.card-home {
+    @include card-shadow;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    @include margin-padding(60px, 20px);
+}
+
+.card-content {
+    align-items: flex-start;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+}
+.card-content h3, p, button {
+    padding: $def-padding;
+}
+.card-content h3 {
+    font-size: $card-h3;
+}
+
+.page-footer {
+    background-color: $footer-color;
+    color: white;
+    padding: 40px;
+    margin-top:40px !important;
+}
+
+

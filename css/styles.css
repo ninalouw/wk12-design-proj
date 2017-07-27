@@ -12,6 +12,21 @@ p, button {
   font-size: 1.8rem;
 }
 
+.btn-primary {
+  padding: 6px 12px;
+  margin: 5px;
+  color: white;
+  background-color: #51418E;
+  border: none;
+  -webkit-box-shadow: 0px 1px 4px 0px #706c70;
+  -moz-box-shadow: 0px 1px 4px 0px #706c70;
+  box-shadow: 0px 1px 4px 0px #706c70;
+}
+
+.btn-primary:hover {
+  background-color: #9013FE;
+}
+
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -19,6 +34,9 @@ a:hover, a:focus {
 .navbar {
   border: 0;
   font-size: 16px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
 }
 
 .navbar .navbar-brand {
@@ -113,4 +131,68 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin: 1em 0 0.5em;
+  max-width: 80%;
+}
+
+.content-header-1 {
+  -webkit-box-shadow: 0px 2px 6px 0px #706c70;
+  -moz-box-shadow: 0px 2px 6px 0px #706c70;
+  box-shadow: 0px 2px 6px 0px #706c70;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.content-header-1 h2 {
+  font-family: "Anton", Helvetica, sans-serif;
+  font-size: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 8rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content-header-2 h2 {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.card-home {
+  -webkit-box-shadow: 0px 2px 6px 0px #706c70;
+  -moz-box-shadow: 0px 2px 6px 0px #706c70;
+  box-shadow: 0px 2px 6px 0px #706c70;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 60px;
+  padding: 20px;
+}
+
+.card-content {
+  align-items: flex-start;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+}
+
+.card-content h3, p, button {
+  padding: 10px;
+}
+
+.card-content h3 {
+  font-size: 5rem;
+}
+
+.page-footer {
+  background-color: #4E409C;
+  color: white;
+  padding: 40px;
+  margin-top: 40px !important;
 }
