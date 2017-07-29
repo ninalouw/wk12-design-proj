@@ -131,7 +131,8 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin: 1em 0 0.5em;
-  max-width: 80%;
+  text-align: center;
+  margin: 40px;
 }
 
 .content-header-1 {
