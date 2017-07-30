@@ -216,6 +216,13 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   padding: 10px;
 }
 
+.content-flex-container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .about-card {
   -webkit-box-shadow: 0px 2px 6px 0px #706c70;
   -moz-box-shadow: 0px 2px 6px 0px #706c70;
@@ -263,4 +270,30 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   padding: 10px;
   margin: 20px;
   transform: translate(0px, -300px);
+}
+
+.services-h1 {
+  margin: 60px;
+  padding: 20px;
+}
+
+.services-h1 h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.services-form {
+  -webkit-box-shadow: 0px 2px 6px 0px #706c70;
+  -moz-box-shadow: 0px 2px 6px 0px #706c70;
+  box-shadow: 0px 2px 6px 0px #706c70;
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }

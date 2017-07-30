@@ -250,6 +250,13 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     transform: translate(0px, -200px);
     @include margin-padding($def-margin, $def-padding);
 }
+.content-flex-container-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    // flex-direction: column;
+}
 
 
 .about-card {
@@ -297,4 +304,25 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     transform: translate(0px, -300px);
 }
 
+//services page
+.services-h1 {
+    @include margin-padding(60px, 20px);
+}
+.services-h1 h1 {
+    font-size: $h2;
+    text-align: center;
+}
+
+.services-form {
+     @include card-shadow;
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    @include margin-padding($def-margin, $def-padding);
+    height: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top:80px;
+    padding-bottom:80px;
+}
 
