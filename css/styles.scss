@@ -155,6 +155,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+.content {
+    margin-bottom: 450px;
+}
 .section-header h1 {
   letter-spacing: 0.1em;
   font-weight: 100;
@@ -165,7 +169,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   text-shadow: $h1-text-shadow;
 }
 
-.section-header p {
+.section-header-p {
   color: $text-color;
   font-family: $text-font;
   font-size: $hero-para-font-size;
@@ -225,11 +229,72 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     font-size: $card-h3;
 }
 
+//footer
 .page-footer {
     background-color: $footer-color;
     color: white;
     padding: 40px;
     margin-top:40px !important;
+}
+
+//about page
+.content-flex-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.content-flex-container-2 {
+    display: flex;
+    // align-items: center;
+    flex-direction: row;
+    transform: translate(0px, -200px);
+    @include margin-padding($def-margin, $def-padding);
+}
+
+
+.about-card {
+    @include card-shadow;
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    @include margin-padding($def-margin, $def-padding);
+
+}
+.about-card-content{
+    @include margin-padding($def-margin, $def-padding);
+}
+.about-card-content p {
+ font-size: $para-font-size;
+}
+
+//refactor into mixin
+.about-img {
+    width: 400px;
+    height: 400px;
+    z-index: -2;
+    transform: translate(-300px, -200px);
+}
+
+.about-img-2 {
+    width: 400px;
+    height: 400px;
+    z-index: -2;
+    transform: translate(300px, -800px);
+}
+.about-img-3 {
+    width: 400px;
+    height: 400px;
+    z-index: -2;
+    // transform: translate(300px, -500px);
+}
+
+.about-header-2 h2 {
+    font-family : $headline-font;
+    font-size: $h2;
+    text-align: center;
+    padding: $def-padding;
+    margin: 20px;
+    transform: translate(0px, -300px);
 }
 
 
