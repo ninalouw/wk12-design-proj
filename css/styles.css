@@ -8,7 +8,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .navbar, .brand {
 }
 
 p, button {
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 1.8rem;
 }
 
@@ -44,7 +44,7 @@ a:hover, a:focus {
   margin: 5px 0px;
   padding: 20px 15px;
   font-size: 1.8rem;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   color: black;
   letter-spacing: 0;
 }
@@ -101,6 +101,10 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 }
 
 .section-header .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
   color: white;
   text-align: center;
@@ -130,19 +134,20 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 
 .section-header-p {
   color: black;
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 2rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin: 1em 0 0.5em;
   text-align: center;
   margin: 40px;
+  max-width: 70%;
 }
 
 .content-header-1 {
-  -webkit-box-shadow: 0px 2px 6px 0px #706c70;
-  -moz-box-shadow: 0px 2px 6px 0px #706c70;
-  box-shadow: 0px 2px 6px 0px #706c70;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -158,7 +163,7 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 }
 
 .content-header-2 h2 {
-  font-family: "Raleway", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 6rem;
   text-transform: uppercase;
   font-weight: 300;
@@ -296,4 +301,78 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   padding-right: 60px;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.body {
+  background-color: #F1EFE9;
+}
+
+.port-card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: white;
+}
+
+.port-card {
+  margin: 10px;
+  padding: 0px;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  background-color: white;
+}
+
+hr {
+  color: #E8E8E8 !important;
+  margin: 0px !important;
+}
+
+.btn-circle {
+  text-align: center;
+  border-radius: 50%;
+  background-color: #9013FE;
+  padding: 20px;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  border: none;
+}
+
+.btn-circle:hover {
+  background-color: #7b2f6f;
+}
+
+.port-card h3, p, button {
+  margin: 10px;
+  padding: 5px;
+}
+
+.port-card img {
+  width: 100%;
+}
+
+.btn-quote {
+  background-color: #9013FE;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  border: none;
+  -webkit-box-shadow: 0px 1px 4px 0px #706c70;
+  -moz-box-shadow: 0px 1px 4px 0px #706c70;
+  box-shadow: 0px 1px 4px 0px #706c70;
+}
+
+.center {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-quote:hover {
+  background-color: #7b2f6f;
 }

@@ -8,7 +8,7 @@
                     <div class="container">
                         <div class="content row">
                                 <h1>Digital First Food</h1>
-                                <p>Box Spring Studio specializes in creative branding for the restaurant industry 
+                                <p class="section-header-p">Box Spring Studio specializes in creative branding for the restaurant industry 
                                     - together we can create culinary genius.
                                 </p>
                         </div>

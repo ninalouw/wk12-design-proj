@@ -29,22 +29,25 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Box Spring Studios</a>
+            <a class="navbar-brand" href="index.php">Box Spring Studios</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
-                <a href="#" class="navbar-li-a dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                <a href="about.php" class="navbar-li-a dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
                 <ul class="dropdown-menu">
+                    <li><a href="about.php">About</a></li>
+                    <li role="separator" class="divider"></li>
                     <li><a href="#">Our Team</a></li>
                     <li role="separator" class="divider"></li>
                     <li><a href="#">How We Work</a></li>
                 </ul>
                 </li>
                 <li><a class="navbar-li-a" href="#">Work</a></li>
-                <li><a class="navbar-li-a" href="#">Services</a></li>
+                <li><a class="navbar-li-a" href="services.php">Services</a></li>
+                <li><a class="navbar-li-a" href="portfolio.php">Portfolio</a></li>
                 <li><a class="navbar-li-a" href="#">Contact</a></li>
             </ul>
             </div><!-- /.navbar-collapse -->
