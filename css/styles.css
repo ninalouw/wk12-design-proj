@@ -376,3 +376,69 @@ hr {
 .btn-quote:hover {
   background-color: #7b2f6f;
 }
+
+.full-image-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.full-image {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0px, -300px);
+}
+
+.overlay-image {
+  width: 500px;
+  height: 500px;
+}
+
+.small-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(300px, -350px);
+}
+
+.small-image {
+  width: 150px;
+  height: 150px;
+}
+
+.trio-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0px, -250px);
+}
+
+.trio-image-middle {
+  transform: translate(0px, -80px);
+}
+
+.trio-image {
+  width: 400px;
+  height: 400px;
+}
+
+.padding {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.circle-img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.client-container {
+  margin-top: 100px;
+}

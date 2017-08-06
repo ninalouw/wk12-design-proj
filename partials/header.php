@@ -45,9 +45,8 @@
                     <li><a href="#">How We Work</a></li>
                 </ul>
                 </li>
-                <li><a class="navbar-li-a" href="#">Work</a></li>
+                <li><a class="navbar-li-a" href="portfolio.php">Work</a></li>
                 <li><a class="navbar-li-a" href="services.php">Services</a></li>
-                <li><a class="navbar-li-a" href="portfolio.php">Portfolio</a></li>
                 <li><a class="navbar-li-a" href="#">Contact</a></li>
             </ul>
             </div><!-- /.navbar-collapse -->
