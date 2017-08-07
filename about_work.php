@@ -23,10 +23,10 @@
                 <p class="text-muted">Phase 1</p>
                 <h3>Research & Strategy</h3>
                 <p>Transforming a mobile booking product and setting the direction for an entire business offering.
-                        A really fun project which we completed very quickly.Transforming a mobile booking product and setting the direction for an entire business offering.
-                        A really fun project which we completed very quickly.Transforming a mobile booking product and setting the direction for an entire business offering.
-                        A really fun project which we completed very quickly.Transforming a mobile booking product and setting the direction for an entire business offering.
-                        A really fun project which we completed very quickly.
+                    A really fun project which we completed very quickly.Transforming a mobile booking product and setting the direction for an entire business offering.
+                    A really fun project which we completed very quickly.Transforming a mobile booking product and setting the direction for an entire business offering.
+                    A really fun project which we completed very quickly.Transforming a mobile booking product and setting the direction for an entire business offering.
+                    A really fun project which we completed very quickly.
                 </p>
                 <hr>
                 <p><span class="text-muted">Key Objectives: </span>Creating a coherent vision and brand strategy, crafting a client roadmap</p>
@@ -112,7 +112,7 @@
                 <p><span class="text-muted">Key Objectives: </span>Creating a coherent vision and brand strategy, crafting a client roadmap</p>
                 <hr>
                 <div class="btn-container">
-                    <button href="services.php" class="btn-circle-arrow">&darr;</button>
+                    <button href="services.php" class="btn-circle-arrow">&uarr;</button>
                 </div>
             </div>
         </div>

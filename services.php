@@ -46,73 +46,179 @@
           <h1>Our Packages</h1>
         </div>
 
-      <div class="row content-flex-container-3">
-        <div class="about-card col-sm-12 col-md-5 col-lg-5">
+    <div class="row content-flex-container-3">
+
+        <div class="about-card col-sm-12 col-md-4 col-lg-4">
             <div class="about-card-content ">
                 <h3>Branding Package</h3>
                 <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard
                     tongue The Game The Game or so I've been told, I'm a nice guy my wife finishing my novel bald
-                    is sexy blackjack. Cosplay no robots posing as real people extreme with lots of self-respect
-                    I don't really keep a budget if you have a BMI under 25.
+                    is sexy blackjack.
                 </p>
+                <ul class="list-group text-center">
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> Personal use</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> Personal projects</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> 27/7 support</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> 27/7 support</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> 27/7 support</li>
+                </ul>
+                <div class="panel-body">
+                      <p><strong>$3000</strong></p>
+                  </div>
                 <button class="btn-primary">Request</button>
             </div>
         </div>
 
-        <div class="services-form col-sm-12 col-md-5 col-lg-5">
-          <form class="form-horizontal">
-            <h3>Submit a Request</h3>
-            <div class="form-group">
-              <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-              <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputEmail3" class="col-sm-2 control-label"></label>
-              <div class="col-sm-10">
-               <textarea class="form-control" rows="3" placeholder="Comments"></textarea>
-               </div>
-            </div>
-            <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Submit</button>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <div class="about-card col-sm-12 col-md-5 col-lg-5">
+        <div class="about-card col-sm-12 col-md-4 col-lg-4">
             <div class="about-card-content ">
                 <h3>Design Package</h3>
                 <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard
                     tongue The Game The Game or so I've been told, I'm a nice guy my wife finishing my novel bald
-                    is sexy blackjack. Cosplay no robots posing as real people extreme with lots of self-respect
-                    I don't really keep a budget if you have a BMI under 25.
+                    is sexy blackjack.
                 </p>
+                <ul class="list-group text-center">
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> Personal use</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> Personal projects</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> 27/7 support</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> 27/7 support</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> 27/7 support</li>
+                </ul>
+                <div class="panel-body">
+                      <p><strong>$3000</strong></p>
+                  </div>
                 <button class="btn-primary">Request</button>
             </div>
         </div>
-        <div class="about-card col-sm-12 col-md-5 col-lg-5">
+
+        <div class="about-card col-sm-12 col-md-4 col-lg-4">
             <div class="about-card-content ">
                 <h3>The Works Package</h3>
                 <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard
                     tongue The Game The Game or so I've been told, I'm a nice guy my wife finishing my novel bald
-                    is sexy blackjack. Cosplay no robots posing as real people extreme with lots of self-respect
-                    I don't really keep a budget if you have a BMI under 25.
+                    is sexy blackjack.
                 </p>
+                <ul class="list-group text-center">
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> Personal use</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> Personal projects</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> 27/7 support</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> 27/7 support</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-check"></i> 27/7 support</li>
+                </ul>
+                <div class="panel-body">
+                      <p><strong>$3000</strong></p>
+                  </div>
                 <button class="btn-primary">Request</button>
             </div>
         </div>
-    </div>
 
     </div>
+
+    <div class="services-form col-sm-12 col-md-12 col-lg-12">
+          <!-- form starts -->
+          <div class="container">
+          <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+          <fieldset>
+          <!-- Form Name -->
+          <legend>Submit a Request</legend>
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Name</label>  
+            <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input  name="name" placeholder="Name" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+          <!-- Text input-->
+                <div class="form-group">
+            <label class="col-md-4 control-label">E-Mail</label>  
+              <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+              </div>
+            </div>
+          </div>
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Website or domain name</label>  
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+            <input name="website" placeholder="Website or domain name" class="form-control" type="text">
+              </div>
+            </div>
+          </div>
+          <!-- radio checks -->
+          <div class="form-group">
+              <label class="col-md-4 control-label">Which package are you interested in?</label>
+              <div class="col-md-4">
+                  <div class="radio">
+                      <label>
+                          <input type="radio" name="hosting" value="branding" checked/> Branding package
+                      </label>
+                  </div>
+                  <div class="radio">
+                      <label>
+                          <input type="radio" name="hosting" value="design" /> Design Package
+                      </label>
+                  </div>
+                  <div class="radio">
+                      <label>
+                          <input type="radio" name="hosting" value="works" /> The Works Package
+                      </label>
+                  </div>
+              </div>
+          </div>
+          <!-- date picker -->
+          <div class="row">
+            <label class="col-md-4 control-label">What is your desired completion date?</label>
+              <div class='col-md-4'>
+                  <div class="form-group col-md-8">
+                      <div class='input-group date' id='datetimepicker1'>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                          <input type='text' class="form-control" />
+                      </div>
+                  </div>
+              </div>
+              <script type="text/javascript">
+                  $(function () {
+                      $('#datetimepicker1').datetimepicker();
+                  });
+              </script>
+          </div>
+
+
+          <!-- Text area -->
+          <div class="form-group">
+            <label class="col-md-4 control-label">Project Description</label>
+              <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                    <textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
+            </div>
+            </div>
+          </div>
+          <!-- Success message -->
+          <!-- <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div> -->
+          <!-- Button -->
+          <div class="form-group">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-4">
+              <button type="submit" class="btn btn-primary" >Send <span class="glyphicon glyphicon-send"></span></button>
+            </div>
+          </div>
+
+          </fieldset>
+          </form>
+          </div>
+        </div><!-- /.container -->
+
+    </div> 
+
+
+</div>
 
 
         <!-- php footer -->

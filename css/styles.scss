@@ -266,7 +266,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     // flex-direction: column;
 }
 
@@ -326,16 +326,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 .services-form {
-     @include card-shadow;
     display: flex;
     align-items: flex-start;
     background-color: white;
-    @include margin-padding($def-margin, $def-padding);
-    height: 100%;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top:80px;
-    padding-bottom:80px;
+    margin-top:50px;
 }
 
 //portfolio page
@@ -492,6 +486,14 @@ hr {
     padding: 15px 20px;
     @include btn-shadow;
     border: none;
+}
+
+//contact form
+
+.well {
+    background-color: white;
+    @include soft-shadow;
+    padding:40px;
 }
 
 
