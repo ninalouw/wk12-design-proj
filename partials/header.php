@@ -40,15 +40,15 @@
                 <ul class="dropdown-menu">
                     <li><a href="about.php">About</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">Our Team</a></li>
+                    <li><a href="team.php">Our Team</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">How We Work</a></li>
+                    <li><a href="about_work.php">How We Work</a></li>
                 </ul>
                 </li>
                 <li><a class="navbar-li-a" href="portfolio.php">Work</a></li>
                 <li><a class="navbar-li-a" href="services.php">Services</a></li>
-                <li><a class="navbar-li-a" href="#">Contact</a></li>
+                <li><a class="navbar-li-a" href="contact.php">Contact</a></li>
             </ul>
-            </div><!-- /.navbar-collapse -->
+            </div>
         </div>
         </nav>

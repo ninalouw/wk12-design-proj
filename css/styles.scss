@@ -3,6 +3,7 @@ $text-color: black;
 $button-color: #51418E;
 $quote-button-color: #9013FE;
 $quote-button-hover: #7b2f6f;
+$blue-purple: #6d13fe;
 $muted-button-color: #8176BD;
 $footer-color: #4E409C;
 $hover-color: $muted-button-color;
@@ -469,6 +470,28 @@ hr {
 
 .client-container {
     margin-top:100px;
+}
+
+//about_work page
+.about-work-img {
+    width:100%;
+    height:200px;
+
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-circle-arrow{
+    text-align: center;
+    border-radius: 50%;
+    background-color:$blue-purple;
+    color: white;
+    padding: 15px 20px;
+    @include btn-shadow;
+    border: none;
 }
 
 
