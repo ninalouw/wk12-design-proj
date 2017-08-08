@@ -1,6 +1,6 @@
 <!-- php header -->
 <?php include "partials/header.php"?>
-    <div class="wrapper">
+<div class="wrapper">
     <div class="section section-header">
         <div class="parallax pattern-image">
             <img src="img/about-work-hero-2.jpg">
