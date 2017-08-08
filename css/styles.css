@@ -327,6 +327,8 @@ hr {
   -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
   border: none;
+  color: white;
+  padding: 15px 20px;
 }
 
 .btn-circle:hover {

@@ -362,6 +362,9 @@ hr {
     padding: 20px;
     @include soft-shadow;
     border:none;
+    color: white;
+    padding: 15px 20px;
+
 }
 .btn-circle:hover {
     background-color: $quote-button-hover;
