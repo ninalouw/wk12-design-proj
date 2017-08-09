@@ -42,8 +42,8 @@
                                 echo "<td>".$client."</td>";
                                 echo "<td>".$content."</td>";
                                 echo "<td>".$testimonial."</td>";
-                                echo "<td><button class='btn btn-info' href='edit.php?tb=portfolio_tb&id=".$id."'>Edit</button></td>";
-                                echo "<td><button class='btn btn-danger' href='_delete_process.php?id=".$id."&tb=portfolio_tb'>Delete</button></td>";
+                                echo "<td><a class='btn btn-info' href='_edit.php?tb=portfolio_tb&id=".$id."'>Edit</a></td>";
+                                echo "<td><a class='btn btn-danger' href='_delete_process.php?id=".$id."&tb=portfolio_tb'>Delete</a></td>";
                             echo "</tr>";
                         }
 

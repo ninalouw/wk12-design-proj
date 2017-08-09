@@ -219,7 +219,5 @@
 
 
 </div>
-
-
         <!-- php footer -->
 <?php include "partials/footer.php"?>

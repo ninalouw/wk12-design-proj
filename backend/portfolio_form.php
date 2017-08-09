@@ -76,8 +76,9 @@
 
                         if(!$insertResult){
                             echo "<p class='bg-warning'>Failed to add portfolio!</p>";
-                        } else{
+                        } else {
                             echo "<p class='bg-success'>Successfully added portfolio!</p>";
+                            echo "<script>window.location = 'admin.php';</script>";
                         }
                     }
                     mysqli_close($connection);
