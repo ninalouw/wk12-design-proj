@@ -38,38 +38,48 @@
                 <button class="btn-primary">View Project</button>
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <img class="card-image img-responsive" src='img/hero.jpg' alt="a great photo">
+                <img class="card-image img-responsive" src='img/home-phone-400.jpg' alt="a great photo">
             </div>
         </div>
 
         <div class="row card-home">
             <div class="card-content col-sm-12 col-md-4 col-lg-4 ">
                 <h3>Fresh Prep</h3>
-                <p>A fresh redesign of the 33 Degrees food ordering interface.
+                <p>A fresh redesign of the Fresh Prep food ordering interface.
                   The client came to us for a complete rebranding and rebuilding
                    of their mobile app.
                 </p>
                 <button class="btn-primary">View Project</button>
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <img class="card-image img-responsive" src='img/work_maple.png' alt="a great photo">
+                <img class="card-image img-responsive" src='img/work_maple-400.jpg' alt="a great photo">
             </div>
         </div>
 
         <div class="row card-home">
             <div class="card-content col-sm-12 col-md-4 col-lg-4 ">
-                <h3>The Pot Luck Club</h3>
-                <p>A fresh redesign of the 33 Degrees food ordering interface.
-                  The client came to us for a complete rebranding and rebuilding
-                   of their mobile app.
+                <h3>Block 16</h3>
+                <p>A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
+                casual family-restaurant serving top-quality food.
                 </p>
                 <button class="btn-primary">View Project</button>
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <img class="card-image img-responsive" src='img/pot_luck_logo.jpg' alt="a great photo">
+                <img class="card-image img-responsive" src='img/block-16-400.jpg' alt="a great photo">
             </div>
         </div>
-
+        <div class="row card-home">
+            <div class="card-content col-sm-12 col-md-4 col-lg-4 ">
+                <h3>Food Finder</h3>
+                <p>A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
+                casual family-restaurant serving top-quality food.
+                </p>
+                <button class="btn-primary">View Project</button>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 ">
+                <img class="card-image img-responsive" src='img/tablet-purple-400.jpg' alt="a great photo">
+            </div>
+        </div>
 
     <footer class="page-footer">
         <div class="container">

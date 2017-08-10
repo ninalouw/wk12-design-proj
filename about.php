@@ -60,7 +60,7 @@
     </div>
 
         <div class="row content-flex-container-2">
-            <div class="about-card col-sm-12 col-md-4 col-lg-4">
+            <div class="about-card col-sm-12 col-md-4 col-lg-4" id="our-team">
                 <div class="about-card-content ">
                     <h3>The Team</h3>
                     <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard tongue
@@ -70,8 +70,8 @@
                     </p>
                 </div>
             </div>
-            <img class="about-img-3 img-responsive" src="img/work_maple-400.jpg" alt="photo">
-            <div class="about-card col-sm-12 col-md-4 col-lg-4">
+            <img class="about-img-3 img-responsive" src="img/phone-trio-400.jpg" alt="photo">
+            <div class="about-card col-sm-12 col-md-4 col-lg-4" id="our-services">
                 <div class="about-card-content ">
                     <h3>Our Services</h3>
                     <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard tongue
@@ -84,8 +84,12 @@
             </div>
         </div>
         <div class="row content-flex-container-2">
-            <div class="about-card col-sm-12 col-md-6 col-lg-6">
-                <div class="about-card-content ">
+            <div class="about-card col-sm-12 col-md-6 col-lg-6" id="our-work">
+                <div class="about-card-content-overlay" id="our-work-overlay">
+                    <h3 class="h3-overlay text-muted text-uppercase"><a href="portfolio.php">See More</a></h3>
+                    <img src='img/tablet-purple-400.jpg' alt='photo'>
+                </div>
+                <div id="our-work-content" class="about-card-content">
                     <h3>Our Work</h3>
                     <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard
                         tongue The Game The Game or so I've been told, I'm a nice guy my wife finishing my novel
@@ -95,7 +99,7 @@
                     <button class="btn-primary">View Work</button>
                 </div>
             </div>
-            <img class="about-img-3 img-responsive" src="img/work_maple-400.jpg" alt="photo">
+            <img class="about-img-3 img-responsive" src="img/phone-blue-400.jpg" alt="photo">
         </div>
 
         <!-- php footer -->

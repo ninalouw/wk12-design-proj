@@ -22,7 +22,7 @@
     </div>
     <!-- gallery of cards -->
     <div class='container'>
-        <div class="row port-card-container">
+        <!-- <div class="row port-card-container">
             <div class="port-card col-md-5 col-lg-5 col-sm-12">
                 <img class="img-responsive" src='img/port-img-375.jpg' alt= 'portfolio image'>
                 <p class="text-muted">Client Name</p>
@@ -39,7 +39,7 @@
                 <hr>
                 <button href="services.php" class="btn-circle"></button>
             </div>
-        </div>
+        </div> -->
     <?php 
                 include "backend/db.php";
                 

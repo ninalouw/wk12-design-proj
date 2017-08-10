@@ -54,6 +54,15 @@ box-shadow: 0px 1px 4px 0px rgba(112,108,112,1);
     padding: $padding;
 }
 
+@mixin purple-gradient {
+background: rgba(164,48,253,1);
+background: -moz-linear-gradient(left, rgba(164,48,253,1) 0%, rgba(109,0,168,0.8) 51%, rgba(55,3,89,0.6) 99%, rgba(181,20,255,0.6) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(164,48,253,1)), color-stop(51%, rgba(109,0,168,0.8)), color-stop(99%, rgba(55,3,89,0.6)), color-stop(100%, rgba(181,20,255,0.6)));
+background: -webkit-linear-gradient(left, rgba(164,48,253,1) 0%, rgba(109,0,168,0.8) 51%, rgba(55,3,89,0.6) 99%, rgba(181,20,255,0.6) 100%);
+background: -o-linear-gradient(left, rgba(164,48,253,1) 0%, rgba(109,0,168,0.8) 51%, rgba(55,3,89,0.6) 99%, rgba(181,20,255,0.6) 100%);
+background: -ms-linear-gradient(left, rgba(164,48,253,1) 0%, rgba(109,0,168,0.8) 51%, rgba(55,3,89,0.6) 99%, rgba(181,20,255,0.6) 100%);
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .navbar, .brand {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -185,6 +194,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: $text-color;
   font-family: $text-font;
   font-size: $hero-para-font-size;
+  font-weight:bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin: 1em 0 0.5em;
@@ -219,7 +229,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 //styling the cards on the home page
 .card-home {
-    @include card-shadow;
+    @include soft-shadow;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -227,12 +237,13 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 .card-content {
-    align-items: flex-start;
+    align-items: stretch;
 }
 
 .card-image {
     width: 100%;
     height: 100%;
+    max-width:500px;
 }
 .card-content h3, p, button {
     padding: $def-padding;
@@ -314,6 +325,27 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     padding: $def-padding;
     margin: 20px;
     transform: translate(0px, -300px);
+}
+
+.h3-overlay a {
+    color:$quote-button-color;
+    text-align: center;
+    position: absolute;
+    z-index:2;
+    text-decoration: none;
+    padding-left:40px;
+    padding-bottom:200px;
+    font-size: 6rem;
+}
+
+.about-card-content-overlay {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-card-content-overlay img {
+    width:100%;
+    height:100%;
 }
 
 //services page
@@ -499,4 +531,23 @@ hr {
     padding:40px;
 }
 
+.team-name {
+    font-family:$text-font;
+    font-size: 2rem;
+    color: $quote-button-color;
+    // line-height:6px;
+}
+#team-overlay {
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    opacity: 0.7;
+    width:300px;
+    height:120px;
+    padding-bottom:50px;
+}
 
+// .team-image-div{
+//     display:flex;
+//     align-items:flex-end;
+// }
