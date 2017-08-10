@@ -1,15 +1,15 @@
     <footer class="page-footer">
         <div class="container">
             <address>
-            <strong>Our Site, Inc.</strong><br>
+            <strong>Box Spring Studios</strong><br>
             1355 Market Street, Suite 900<br>
-            San Francisco, CA 94103<br>
+            New York, NY 94103<br>
             <abbr title="Phone">P:</abbr> (123) 456-7890
             </address>
 
             <address>
             <strong>Email</strong><br>
-            <a href="mailto:#">hello@example.com</a>
+            <a href="mailto:#">hello@boxpsring.com</a>
             </address>
         </div>
     </footer>

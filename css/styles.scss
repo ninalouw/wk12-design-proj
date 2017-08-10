@@ -89,6 +89,11 @@ p, button {
     background-color: $quote-button-color;
 }
 
+.btn-primary a {
+    text-decoration: none;
+    color: white !important;
+}
+
 a:hover, a:focus {
   text-decoration: none;
 }
@@ -283,7 +288,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 
 
 .about-card {
-    @include card-shadow;
+    @include soft-shadow;
     display: flex;
     align-items: flex-start;
     background-color: white;
@@ -362,6 +367,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     align-items: flex-start;
     background-color: white;
     margin-top:50px;
+}
+
+.img-circle {
+
 }
 
 //portfolio page
