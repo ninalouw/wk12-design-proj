@@ -401,6 +401,11 @@ hr {
 .btn-circle:hover {
     background-color: $quote-button-hover;
 }
+
+.btn-circle a {
+    text-decoration: none;
+    color:white !important;
+}
 .port-card h3, p, button {
     @include margin-padding($def-margin, 5px);
 }
@@ -513,7 +518,7 @@ hr {
     justify-content: center;
 }
 
-.btn-circle-arrow{
+.btn-circle-arrow {
     text-align: center;
     border-radius: 50%;
     background-color:$blue-purple;

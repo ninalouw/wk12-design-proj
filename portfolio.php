@@ -3,7 +3,7 @@
     <div class="wrapper">
         <div class="section section-header">
             <div class="parallax pattern-image">
-                <img src="img/portfolio-hero.jpeg" alt="hero image">
+                <img src="img/new-work-hero.jpg" alt="hero image">
                 <div class="container">
                     <div class="content row">
                         <p class="section-header-p">Featured Work</p>
@@ -71,7 +71,7 @@
                                     <h3>$title</h3>
                                     <p>$content</p>
                                     <hr>
-                                    <button href='portfolio_detail.php' class='btn-circle'>&rarr;</button>
+                                    <button href='portfolio_detail.php' class='btn-circle'><a href='portfolio_detail.php'>&rarr;</a></button>
                                 </div>
                             <div class='port-card col-md-5 col-lg-5 col-sm-12'>
                                     <img class='img-responsive' src='$image' alt='portfolio image'>
@@ -79,7 +79,7 @@
                                     <h3>$title</h3>
                                     <p>$content</p>
                                     <hr>
-                                    <button href='portfolio_detail.php' class='btn-circle'>&rarr;</button>
+                                    <button class='btn-circle'><a href='portfolio_detail.php'>&rarr;</a></button>
                                 </div>
                             </div>
                                 ";
