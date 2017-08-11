@@ -71,8 +71,7 @@
         <div class="row card-home">
             <div class="card-content col-sm-12 col-md-4 col-lg-4 ">
                 <h3>Food Finder</h3>
-                <p>A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
-                casual family-restaurant serving top-quality food.
+                <p>A great project for Food Finder Foursquare app. We rebuilt their mobile app to provide quick delivery of top-quality food.
                 </p>
                 <button class="btn-primary">View Project</button>
             </div>
@@ -81,24 +80,5 @@
             </div>
         </div>
 
-    <footer class="page-footer">
-        <div class="container">
-            <address>
-            <strong>Our Site, Inc.</strong><br>
-            1355 Market Street, Suite 900<br>
-            San Francisco, CA 94103<br>
-            <abbr title="Phone">P:</abbr> (123) 456-7890
-            </address>
-
-            <address>
-            <strong>Email</strong><br>
-            <a href="mailto:#">hello@example.com</a>
-            </address>
-        </div>
-    </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+        <!-- php footer -->
+<?php include "partials/footer.php"?>

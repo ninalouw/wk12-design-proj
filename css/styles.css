@@ -36,6 +36,11 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+.logo {
+  width: 200px;
+  height: 25px;
+}
+
 .navbar {
   border: 0;
   font-size: 16px;
@@ -514,4 +519,8 @@ hr {
   width: 300px;
   height: 120px;
   padding-bottom: 50px;
+}
+
+.contact-form {
+  padding-top: 100px;
 }

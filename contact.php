@@ -4,7 +4,7 @@
 <div class="wrapper">
     <div class="section section-header">
         <div class="parallax pattern-image">
-            <img src="img/hero.jpg">
+            <img src="img/contact-hero-1.jpg">
             <div class="container">
                 <div class="content row">
                         <h1>Contact Us</h1>
@@ -16,7 +16,7 @@
     </div>
 </div> 
 
-<div class="container">
+<div class="container contact-form">
 
     <form class="well form-horizontal" action=" " method="post"  id="contact_form">
 <fieldset>
@@ -214,7 +214,7 @@
 </div>
 
 <!-- Success message -->
-<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+<!-- <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div> -->
 
 <!-- Button -->
 <div class="form-group">
