@@ -35,7 +35,7 @@
                   The client came to us for a complete rebranding and rebuilding
                    of their mobile app.
                 </p>
-                <button class="btn-primary">View Project</button>
+                <button class="btn-primary"><a href="portfolio_detail.php">View Project</a></button>
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 ">
                 <img class="card-image img-responsive" src='img/home-phone-400.jpg' alt="a great photo">
@@ -49,7 +49,7 @@
                   The client came to us for a complete rebranding and rebuilding
                    of their mobile app.
                 </p>
-                <button class="btn-primary">View Project</button>
+                <button class="btn-primary"><a href="portfolio_detail.php">View Project</a></button>
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 ">
                 <img class="card-image img-responsive" src='img/work_maple-400.jpg' alt="a great photo">
@@ -62,7 +62,7 @@
                 <p>A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
                 casual family-restaurant serving top-quality food.
                 </p>
-                <button class="btn-primary">View Project</button>
+                <button class="btn-primary"><a href="portfolio_detail.php">View Project</a></button>
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 ">
                 <img class="card-image img-responsive" src='img/block-16-400.jpg' alt="a great photo">
@@ -73,7 +73,7 @@
                 <h3>Food Finder</h3>
                 <p>A great project for Food Finder Foursquare app. We rebuilt their mobile app to provide quick delivery of top-quality food.
                 </p>
-                <button class="btn-primary">View Project</button>
+                <button class="btn-primary"><a href="portfolio_detail.php">View Project</a></button>
             </div>
             <div class="col-sm-12 col-md-8 col-lg-8 ">
                 <img class="card-image img-responsive" src='img/tablet-purple-400.jpg' alt="a great photo">
