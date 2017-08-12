@@ -1,6 +1,5 @@
 <?php include 'back_header.php'?>
 <?php
-	// EDIT PROCESS
 	include "db.php";
 
 	db_connect();

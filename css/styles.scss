@@ -11,8 +11,8 @@ $menu-item-color: white;
 $header-height: 60px;
 
 //fonts
-$text-font: Helvetica, sans-serif;
-$headline-font: 'Anton', Helvetica, sans-serif;
+$text-font: 'Roboto', Helvetica, sans-serif;
+$headline-font: 'Playfair Display', Georgia, serif;
 $heading-font-size: 3rem;
 $para-font-size:1.8rem;
 $hero-para-font-size: 2rem;
@@ -63,12 +63,12 @@ background: -o-linear-gradient(left, rgba(164,48,253,1) 0%, rgba(109,0,168,0.8) 
 background: -ms-linear-gradient(left, rgba(164,48,253,1) 0%, rgba(109,0,168,0.8) 51%, rgba(55,3,89,0.6) 99%, rgba(181,20,255,0.6) 100%);
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, .navbar, .brand {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: $headline-font;
   font-size: $heading-font-size;
-  font-weight: 400;
+  font-weight: 700;
   margin: 30px 0 15px;
 }
 
@@ -117,6 +117,7 @@ a:hover, a:focus {
   padding: 20px 15px;
   font-size: $para-font-size;
   font-family: $text-font;
+  font-weight:bold;
   color: $text-color;
   letter-spacing: 0;
 }
@@ -170,10 +171,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 .section-header .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
   color: white;
   text-align: center;
@@ -192,7 +193,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 .section-header h1 {
   letter-spacing: 0.1em;
-  font-weight: 100;
+  font-weight: 900;
   font-size: $hero-h1;
   font-family: $headline-font;
   color: $text-color;
@@ -224,15 +225,16 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     font-family: $headline-font;
     font-size: $h2;
     text-align: center;
-    text-transform: uppercase;
+    font-weight:700;
+    // text-transform: uppercase;
     line-height: 8rem;
     @include margin-padding($def-margin, $def-padding);
 }
 .content-header-2 h2 {
-    font-family : $text-font;
+    font-family : $headline-font;
     font-size: $h2;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 900;
     text-align: center;
     padding: $def-padding;
     margin: 20px;
@@ -388,7 +390,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     justify-content: center;
     flex-direction: row;
     background-color: white;
-    // flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .port-card {
     // border: black 0.5px solid;

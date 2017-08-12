@@ -21,10 +21,11 @@
                     if( $numberOfRows > 0 ){
 
                         echo "<table class='table table-striped table-hover'>";
-                        echo "<tr class='info'>
+                        echo "<tr class='info' style='width:100%;'>
                                     <th>ID</th>
                                     <th>Title</th> 
                                     <th>Client</th>
+                                    <th>Image</th>
                                     <th>Content</th>
                                     <th>Testimonial</th>
                                 </tr>";
@@ -34,12 +35,14 @@
                             $id = $rowArray["id"];
                             $title = $rowArray["title"];
                             $client = $rowArray["client"];
+                            $image = $rowArray["image"];
                             $content = $rowArray["content"];
                             $testimonial = $rowArray["testimonial"];
                             echo "<tr>";
                                 echo "<td>".$id."</td>";
                                 echo "<td>".$title."</td>";
                                 echo "<td>".$client."</td>";
+                                echo "<td><img style='width:50px; height:50px' src='".$image." '></td>";
                                 echo "<td>".$content."</td>";
                                 echo "<td>".$testimonial."</td>";
                                 echo "<td><a class='btn btn-info' href='_edit.php?tb=portfolio_tb&id=".$id."'>Edit</a></td>";

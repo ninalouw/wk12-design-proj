@@ -30,7 +30,13 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Image</label>
-                        <input type="text" class="form-control" id="image" placeholder="Image" name="image">
+                        	<select  class="form-control" id="imageSelect" name="image">
+                                <?php
+                                    foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
+                                        echo "<option>" . $filename . "</option>";
+                                    }
+                                ?>
+                            </select>
                     </div>
                 </div>
                 <div class="form-group row">
@@ -51,8 +57,6 @@
                 if(isset($_POST['title']) && isset($_POST['content']) && isset($_POST['submit'])){
 
                     $connection = db_connect();
-                    // $configArray = parse_ini_file("../../con/config.ini");
-                    // $connection = mysqli_connect($configArray["host"], $configArray["username"], $configArray["password"], $configArray["database"] );
                     
                     if(!$connection) {
                         echo "<p class='bg-danger'>Connection Failed</p>";

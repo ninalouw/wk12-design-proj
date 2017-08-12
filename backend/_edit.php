@@ -1,10 +1,5 @@
 <!-- EDIT -->
 <?php include 'back_header.php'?>
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Admin</title>
-	</head>
     <style>
     body {
         margin-top:100px;
@@ -36,11 +31,24 @@
 						while($rowArray = mysqli_fetch_assoc($queryResult)) {
 
 							foreach($rowArray as $name=>$value) {
-								if($name !== "id") {
+								if($name !== "id" && $name !== "image") {
                                     echo "<div class='form-group row'>";
                                     echo "<div class='col-sm-12 col-md-6 col-lg-6'>";
 									echo '<label>'.$name.': </label><input type="text" class="form-control" name="'.$name.'" value="'.$value.'">
 										<br><br>';
+                                    echo "</div>";
+                                    echo "</div>";
+								}
+								else if ($name === "image"){
+									echo "<div class='form-group row'>";
+                                    echo "<div class='col-sm-12 col-md-6 col-lg-6'>";
+									echo '<label>'.$name.': </label>';
+									echo "<select  class='form-control' id='imageSelect' name='".$name."' value='".$value."'>";
+										foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
+											echo "<option>" . $filename . "</option>";
+										}
+									echo "</select>";
+									echo "<br><br>";
                                     echo "</div>";
                                     echo "</div>";
 								}

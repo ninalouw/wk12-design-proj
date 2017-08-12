@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <!-- rest of page content -->
+    <!-- Heading -->
     <div class="content-header-1 row">
         <div class="col-sm-12 col-md-12 col-lg-12 ">
             <h2>Our Work</h2>
@@ -22,24 +22,6 @@
     </div>
     <!-- gallery of cards -->
     <div class='container'>
-        <!-- <div class="row port-card-container">
-            <div class="port-card col-md-5 col-lg-5 col-sm-12">
-                <img class="img-responsive" src='img/port-img-375.jpg' alt= 'portfolio image'>
-                <p class="text-muted">Client Name</p>
-                <h3>Title</h3>
-                <p>Transforming a mobile booking product and setting the direction for an entire business offering. A really fun project which we completed very quickly.</p>
-                <hr>
-                <button href="services.php" class="btn-circle"></button>
-            </div>
-            <div class="port-card col-md-5 col-lg-5 col-sm-12">
-                <img class="img-responsive" src='img/port-img-insta-375.jpg' alt= 'portfolio image'>
-                <p class="text-muted">Client Name</p>
-                <h3>Title</h3>
-                <p>Transforming a mobile booking product and setting the direction for an entire business offering. A really fun project which we completed very quickly.</p>
-                <hr>
-                <button href="services.php" class="btn-circle"></button>
-            </div>
-        </div> -->
     <?php 
                 include "backend/db.php";
                 
@@ -53,7 +35,7 @@
 
                     if( $numberOfRows > 0 ){
 
-                        // echo "<div class='row port-card-container'>";
+                        echo "<div class='row port-card-container'>";
 
                         while($rowArray = mysqli_fetch_assoc($queryResult)) {	
 
@@ -61,10 +43,12 @@
                             $title = $rowArray["title"];
                             $client = $rowArray["client"];
                             $content = $rowArray["content"];
-                            $image = $rowArray["image"];
+                            $unformattedImage = $rowArray["image"];
+                            //image has ../, remove it
+                            $image = ltrim( $unformattedImage, "../" );
                             $testimonial = $rowArray["testimonial"];
+
                             echo "
-                            <div class='row port-card-container'>
                                 <div class='port-card col-md-5 col-lg-5 col-sm-12'>
                                     <img class='img-responsive' src='$image' alt='portfolio image'>
                                     <p class='text-muted'>$client</p>
@@ -73,20 +57,11 @@
                                     <hr>
                                     <button href='portfolio_detail.php' class='btn-circle'><a href='portfolio_detail.php'>&rarr;</a></button>
                                 </div>
-                            <div class='port-card col-md-5 col-lg-5 col-sm-12'>
-                                    <img class='img-responsive' src='$image' alt='portfolio image'>
-                                    <p class='text-muted'>$client</p>
-                                    <h3>$title</h3>
-                                    <p>$content</p>
-                                    <hr>
-                                    <button class='btn-circle'><a href='portfolio_detail.php'>&rarr;</a></button>
-                                </div>
-                            </div>
                                 ";
 
                         }
 
-                        // echo "</div>";
+                    echo "</div>";
                     }
                     else {
                         echo "<p>No info to display!</p>";
