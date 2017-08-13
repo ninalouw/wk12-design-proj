@@ -184,7 +184,7 @@
                         $design_process =  mysqli_real_escape_string($connection,$_POST['design_process']);
                         $design_image1 =  mysqli_real_escape_string($connection,$_POST['design_image1']);
                         $design_image2 =  mysqli_real_escape_string($connection,$_POST['design_image2']);
-                        $client_image2 =  mysqli_real_escape_string($connection,$_POST['client_image2']);
+                        $client_image =  mysqli_real_escape_string($connection,$_POST['client_image']);
                         //insert
                         $insert = "INSERT INTO portfolio_tb (title, client, content, image, testimonial, hero_image, 
                                                             proj_summary, final_summary, image1, image2, image3, 

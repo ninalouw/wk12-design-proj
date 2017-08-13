@@ -31,7 +31,7 @@
 						while($rowArray = mysqli_fetch_assoc($queryResult)) {
 
 							foreach($rowArray as $name=>$value) {
-								if($name !== "id" && $name !== "image") {
+								if($name == "title" || $name === "client") {
                                     echo "<div class='form-group row'>";
                                     echo "<div class='col-sm-12 col-md-6 col-lg-6'>";
 									echo '<label>'.$name.': </label><input type="text" class="form-control" name="'.$name.'" value="'.$value.'">
@@ -39,7 +39,15 @@
                                     echo "</div>";
                                     echo "</div>";
 								}
-								else if ($name === "image"){
+								if($name === "content" || $name === "testimonial" || $name === "proj_summary" || $name === "final_summary" || $name === "design_process" ) {
+                                    echo "<div class='form-group row'>";
+                                    echo "<div class='col-sm-12 col-md-6 col-lg-6'>";
+									echo '<label>'.$name.': </label><input rows="8" style="height:100px;width:700px" type="text" class="form-control" name="'.$name.'" value="'.$value.'">
+										<br><br>';
+                                    echo "</div>";
+                                    echo "</div>";
+								}
+								else if ($name === "image" ||  $name === "hero_image" ||  $name === "image1" || $name === "image2" || $name === "image3" || $name === "design_image1" || $name === "design_image2" || $name === "client_image"){
 									echo "<div class='form-group row'>";
                                     echo "<div class='col-sm-12 col-md-6 col-lg-6'>";
 									echo '<label>'.$name.': </label>';
