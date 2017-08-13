@@ -50,12 +50,13 @@
 
                             echo "
                                 <div class='port-card col-md-5 col-lg-5 col-sm-12'>
+                                    <input type='hidden' name='".$id."' value='".$id."'>
                                     <img class='img-responsive' src='$image' alt='portfolio image'>
                                     <p class='text-muted'>$client</p>
                                     <h3>$title</h3>
                                     <p>$content</p>
                                     <hr>
-                                    <button href='portfolio_detail.php' class='btn-circle'><a href='portfolio_detail.php'>&rarr;</a></button>
+                                    <span class='text-muted'><button href='portfolio_detail.php?tb=portfolio_tb&id=".$id."' class='btn-circle'><a href='portfolio_detail.php?tb=portfolio_tb&id=".$id."'>&rarr;</a></button>View</span>
                                 </div>
                                 ";
 
