@@ -23,14 +23,105 @@
                 </div>
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
-                        <label for="content">Project Description</label>
+                        <label for="content">Short Project Description</label>
                         <textarea class="form-control" rows="6" placeholder="Fill in the project description..." name="content"></textarea>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
-                        <label for="image">Image</label>
+                        <label for="image">Card Image</label>
                         	<select  class="form-control" id="imageSelect" name="image">
+                                <?php
+                                    foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
+                                        echo "<option>" . $filename . "</option>";
+                                    }
+                                ?>
+                            </select>
+                    </div>
+                </div>
+                <p>Portfolio Detail Section</p>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="image">Hero Image</label>
+                        	<select  class="form-control" id="imageSelect" name="hero_image">
+                                <?php
+                                    foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
+                                        echo "<option>" . $filename . "</option>";
+                                    }
+                                ?>
+                            </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="content">Project Summary</label>
+                        <textarea class="form-control" rows="8" placeholder="Fill in the project summary..." name="proj_summary"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="content">Final Product</label>
+                        <textarea class="form-control" rows="8" placeholder="Fill in details about the final product..." name="final_summary"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="image">Featured Image 1</label>
+                        	<select  class="form-control" id="imageSelect" name="image1">
+                                <?php
+                                    foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
+                                        echo "<option>" . $filename . "</option>";
+                                    }
+                                ?>
+                            </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="image">Featured Image 2</label>
+                        	<select  class="form-control" id="imageSelect" name="image2">
+                                <?php
+                                    foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
+                                        echo "<option>" . $filename . "</option>";
+                                    }
+                                ?>
+                            </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="image">Featured Image 3</label>
+                        	<select  class="form-control" id="imageSelect" name="image3">
+                                <?php
+                                    foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
+                                        echo "<option>" . $filename . "</option>";
+                                    }
+                                ?>
+                            </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="content">Design Process</label>
+                        <textarea class="form-control" rows="8" placeholder="Fill in details about the design process..." name="design_process"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="image">Design Image 1</label>
+                        	<select  class="form-control" id="imageSelect" name="design_image1">
+                                <?php
+                                    foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
+                                        echo "<option>" . $filename . "</option>";
+                                    }
+                                ?>
+                            </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="image">Design Image 2</label>
+                        	<select  class="form-control" id="imageSelect" name="design_image2">
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
@@ -43,6 +134,18 @@
                     <div class="col-md-6 col-lg-6">
                         <label for="content">Client Testimonial</label>
                         <textarea class="form-control" rows="6" placeholder="Fill in the testimonial..." name="testimonial"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 col-lg-6">
+                        <label for="image">Client Image</label>
+                        	<select  class="form-control" id="imageSelect" name="client_image">
+                                <?php
+                                    foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
+                                        echo "<option>" . $filename . "</option>";
+                                    }
+                                ?>
+                            </select>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary" name="submit">Submit</button>
@@ -72,9 +175,23 @@
                         $content =  mysqli_real_escape_string($connection,$_POST['content']);
                         $image =  mysqli_real_escape_string($connection,$_POST['image']);
                         $testimonial =  mysqli_real_escape_string($connection,$_POST['testimonial']);
+                        $hero_image =  mysqli_real_escape_string($connection,$_POST['hero_image']);
+                        $proj_summary =  mysqli_real_escape_string($connection,$_POST['proj_summary']);
+                        $final_summary =  mysqli_real_escape_string($connection,$_POST['final_summary']);
+                        $image1 =  mysqli_real_escape_string($connection,$_POST['image1']);
+                        $image2 =  mysqli_real_escape_string($connection,$_POST['image2']);
+                        $image3 =  mysqli_real_escape_string($connection,$_POST['image3']);
+                        $design_process =  mysqli_real_escape_string($connection,$_POST['design_process']);
+                        $design_image1 =  mysqli_real_escape_string($connection,$_POST['design_image1']);
+                        $design_image2 =  mysqli_real_escape_string($connection,$_POST['design_image2']);
+                        $client_image2 =  mysqli_real_escape_string($connection,$_POST['client_image2']);
                         //insert
-                        $insert = "INSERT INTO portfolio_tb (title, client, content, image, testimonial) 
-                                VALUES ('$title','$client','$content', '$image', '$testimonial')";
+                        $insert = "INSERT INTO portfolio_tb (title, client, content, image, testimonial, hero_image, 
+                                                            proj_summary, final_summary, image1, image2, image3, 
+                                                            design_process, design_image1, design_image2, client_image) 
+                                VALUES ('$title','$client','$content', '$image', '$testimonial', '$hero_image', 
+                                                            '$proj_summary', '$final_summary', '$image1', '$image2', '$image3', 
+                                                            '$design_process', '$design_image1', '$design_image2', '$client_image')";
 
                         $insertResult = mysqli_query($connection, $insert);
 

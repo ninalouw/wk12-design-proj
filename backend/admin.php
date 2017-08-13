@@ -28,6 +28,11 @@
                                     <th>Image</th>
                                     <th>Content</th>
                                     <th>Testimonial</th>
+                                    <th>HeroImage</th>
+                                    <th>Summary</th>
+                                    <th>Final</th>
+                                    <th>Design</th>
+                                    <th>ClientImage</th>
                                 </tr>";
 
                         while($rowArray = mysqli_fetch_assoc($queryResult)) {	
@@ -38,13 +43,23 @@
                             $image = $rowArray["image"];
                             $content = $rowArray["content"];
                             $testimonial = $rowArray["testimonial"];
+                            $heroImage = $rowArray["hero_image"];
+                            $projSummary = $rowArray["proj_summary"];
+                            $finalSummary = $rowArray["final_summary"];
+                            $designProcess = $rowArray["design_process"];
+                            $clientImage = $rowArray["client_image"];
                             echo "<tr>";
                                 echo "<td>".$id."</td>";
                                 echo "<td>".$title."</td>";
                                 echo "<td>".$client."</td>";
-                                echo "<td><img style='width:50px; height:50px' src='".$image." '></td>";
+                                echo "<td><img style='width:40px; height:40px' src='".$image." '></td>";
                                 echo "<td>".$content."</td>";
                                 echo "<td>".$testimonial."</td>";
+                                echo "<td><img style='width:50px; height:50px' src='".$heroImage." '></td>";
+                                echo "<td>".$projSummary."</td>";
+                                echo "<td>".$finalSummary."</td>";
+                                echo "<td>".$designProcess."</td>";
+                                echo "<td><img style='width:40px; height:40px' src='".$clientImage." '></td>";
                                 echo "<td><a class='btn btn-info' href='_edit.php?tb=portfolio_tb&id=".$id."'>Edit</a></td>";
                                 echo "<td><a class='btn btn-danger' href='_delete_process.php?id=".$id."&tb=portfolio_tb'>Delete</a></td>";
                             echo "</tr>";
