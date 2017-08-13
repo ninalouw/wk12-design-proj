@@ -17,216 +17,104 @@
 </div> 
 
 <div class="container contact-form">
-
-    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
-<fieldset>
-
-<!-- Form Name -->
-<legend>Contact Us Today!</legend>
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label">First Name</label>  
-  <div class="col-md-4 inputGroupContainer">
-  <div class="input-group">
-  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label" >Last Name</label> 
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Text input-->
-       <div class="form-group">
-  <label class="col-md-4 control-label">E-Mail</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
-    </div>
-  </div>
-</div>
-
-
-<!-- Text input-->
-       
-<div class="form-group">
-  <label class="col-md-4 control-label">Phone #</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Text input-->
-      
-<div class="form-group">
-  <label class="col-md-4 control-label">Address</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="address" placeholder="Address" class="form-control" type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Text input-->
- 
-<div class="form-group">
-  <label class="col-md-4 control-label">City</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="city" placeholder="city" class="form-control"  type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Select Basic -->
-   
-<div class="form-group"> 
-  <label class="col-md-4 control-label">State</label>
-    <div class="col-md-4 selectContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-    <select name="state" class="form-control selectpicker" >
-      <option value=" " >Please select your state</option>
-      <option>Alabama</option>
-      <option>Alaska</option>
-      <option >Arizona</option>
-      <option >Arkansas</option>
-      <option >California</option>
-      <option >Colorado</option>
-      <option >Connecticut</option>
-      <option >Delaware</option>
-      <option >District of Columbia</option>
-      <option> Florida</option>
-      <option >Georgia</option>
-      <option >Hawaii</option>
-      <option >daho</option>
-      <option >Illinois</option>
-      <option >Indiana</option>
-      <option >Iowa</option>
-      <option> Kansas</option>
-      <option >Kentucky</option>
-      <option >Louisiana</option>
-      <option>Maine</option>
-      <option >Maryland</option>
-      <option> Mass</option>
-      <option >Michigan</option>
-      <option >Minnesota</option>
-      <option>Mississippi</option>
-      <option>Missouri</option>
-      <option>Montana</option>
-      <option>Nebraska</option>
-      <option>Nevada</option>
-      <option>New Hampshire</option>
-      <option>New Jersey</option>
-      <option>New Mexico</option>
-      <option>New York</option>
-      <option>North Carolina</option>
-      <option>North Dakota</option>
-      <option>Ohio</option>
-      <option>Oklahoma</option>
-      <option>Oregon</option>
-      <option>Pennsylvania</option>
-      <option>Rhode Island</option>
-      <option>South Carolina</option>
-      <option>South Dakota</option>
-      <option>Tennessee</option>
-      <option>Texas</option>
-      <option> Uttah</option>
-      <option>Vermont</option>
-      <option>Virginia</option>
-      <option >Washington</option>
-      <option >West Virginia</option>
-      <option>Wisconsin</option>
-      <option >Wyoming</option>
-    </select>
-  </div>
-</div>
-</div>
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label">Zip Code</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
-    </div>
-</div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label">Website or domain name</label>  
-   <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
-  <input name="website" placeholder="Website or domain name" class="form-control" type="text">
-    </div>
-  </div>
-</div>
-
-<!-- radio checks -->
- <div class="form-group">
-    <label class="col-md-4 control-label">Do you have hosting?</label>
-    <div class="col-md-4">
-        <div class="radio">
-            <label>
-                <input type="radio" name="hosting" value="yes" /> Yes
-            </label>
+  <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+      <fieldset>
+      <!-- Form Name -->
+      <legend>Contact Us Today!</legend>
+      <div class="form-group">
+        <label class="col-md-4 control-label">Name</label>  
+        <div class="col-md-4 inputGroupContainer">
+        <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input  name="name" placeholder="Name" class="form-control"  type="text" required>
+          </div>
         </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name="hosting" value="no" /> No
-            </label>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-4 control-label">E-Mail</label>  
+          <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+        <input name="email" placeholder="E-Mail Address" class="form-control"  type="text" required>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
 
-<!-- Text area -->
-  
-<div class="form-group">
-  <label class="col-md-4 control-label">Project Description</label>
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-        	<textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
-  </div>
-  </div>
-</div>
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label">Website or domain name</label>  
+        <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+        <input name="website" placeholder="Website or domain name" class="form-control" type="text">
+          </div>
+        </div>
+      </div>
 
-<!-- Success message -->
-<!-- <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div> -->
+      <div class="form-group">
+        <label class="col-md-4 control-label">Project Description</label>
+          <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                <textarea class="form-control" name="description" placeholder="Project Description" required></textarea>
+        </div>
+        </div>
+      </div>
+      <!-- Success message -->
+      <!-- <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div> -->
+      <!-- Button -->
+      <div class="form-group">
+        <label class="col-md-4 control-label"></label>
+        <div class="col-md-4">
+          <button type="submit" name="submit" class="btn btn-primary" >Send <span class="glyphicon glyphicon-send"></span></button>
+        </div>
+      </div>
 
-<!-- Button -->
-<div class="form-group">
-  <label class="col-md-4 control-label"></label>
-  <div class="col-md-4">
-    <button type="submit" class="btn btn-primary" >Send <span class="glyphicon glyphicon-send"></span></button>
-  </div>
+      </fieldset>
+  </form>
 </div>
+</div><!-- /.container -->
+<?php
+    if(isset($_POST["submit"]) AND 
+					 $_POST["email"] != "" AND 
+					 $_POST["name"] != "" AND  
+					 $_POST["description"] != "") {
+				
+				sendMail($_POST["email"], $_POST["name"], $_POST["description"]);
+		}
 
-</fieldset>
-</form>
-</div>
-    </div><!-- /.container -->
+    function sendMail($email, $name, $description) {
+				$to = $email;	
+				$subject = "Thanks for contacting us $name";
+
+				$message = " <html> <head> <title>Hello from Boxspring Studios</title> </head>\n";
+        $message .= "<img style='display:block; margin:auto; border-radius:50%; width:120px; height:120px' src='https://static.pexels.com/photos/2097/desk-office-pen-ruler.jpg' alt='image'>";
+				$message .= "<body> <h2 style='text-align:center; color:#7b2f6f; font-size:20px;'>Hello from Boxspring Studios!</h2>\n";
+        $message .= "<body> <p style='text-align:center;'>Hello $name,</p>\n";
+        $message .= "<p style='text-align:center;'>Thanks for contacting the team at Boxspring Studios.</p>\n";
+				$message .= "<p style='text-align:center;'>The email address that we have for you is $to.</p>\n";
+				$message .= "<p style='text-align:center;'>Your project description is: $description</p>\n";
+        $message .= "<p style='text-align:center;'>We will get back to you as soon as possible regarding your project.</p>\n";
+        $message .= "<p style='text-align:center;'>All the best,</p>\n";
+        $message .= "<p style='text-align:center;'>Harriet from Boxpsring Studios</p>\n";
+				$message .= "</body> </html>";
+
+				$headers = "MIME-Version: 1.0\r\n";
+				$headers .= "Content-type:text/html;charset=UTF-8\r\n";
+				$headers .= "From: hello@boxspringstudios.com\r\n";
+
+				$didItSend = mail($to, $subject, $message, $headers);
+
+				if ( $didItSend === true ) {   
+					echo "<p>Email sent successfully to $to</p>";   
+				}
+				else {  
+					echo "<p>Email failed to send</p>";
+				}
+		}
+    
+?>
+
 <!-- php footer -->
 <?php include "partials/footer.php"?>

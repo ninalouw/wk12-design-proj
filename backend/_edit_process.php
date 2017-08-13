@@ -7,8 +7,6 @@
 	if(db_connect()) {
 		if(isset($_POST["id"])) {
 
-			var_dump($_POST);
-
 			$update = "UPDATE ".$_POST["tb"]." SET ";
 			foreach($_POST as $name=>$value) {
 				if($name !== "id" AND $name !== "tb") {
