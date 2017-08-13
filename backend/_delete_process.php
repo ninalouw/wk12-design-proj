@@ -17,6 +17,7 @@
 			if($deleteResult) {
                 echo"<p class='bg-success'>Delete successful!</p>";
                 echo "<script>window.location = 'admin.php';</script>";
+				echo"<p class='bg-success'>Delete successful!</p>";
 			}
 			else {
                 echo"<p class='bg-warning'>Delete failed!</p>";

@@ -4,7 +4,7 @@
 	session_start();
 ?>
 <body>
-<div class="container" style="margin-top:100px">
+<div style="margin-top:100px; margin:20px;">
     <h1>Admin Panel</h1>
     <h3>Portfolio Table</h3>
         <?php 
@@ -19,20 +19,22 @@
                     $numberOfRows = mysqli_num_rows($queryResult);
 
                     if( $numberOfRows > 0 ){
-
-                        echo "<table class='table table-responsive table-striped table-hover'>";
+                        echo "<div class='table-responsive'>";
+                        echo "<table class='table table-condensed table-striped table-hover'>";
                         echo "<tr class='info' style='width:100%;'>
                                     <th>ID</th>
                                     <th>Title</th> 
                                     <th>Client</th>
-                                    <th>Image</th>
+                                    <th>Img</th>
                                     <th>Content</th>
                                     <th>Testimonial</th>
-                                    <th>HeroImage</th>
+                                    <th>Hero</th>
                                     <th>Summary</th>
                                     <th>Final</th>
+                                    <th>Imgs</th>
                                     <th>Design</th>
-                                    <th>ClientImage</th>
+                                    <th>Design</th>
+                                    <th>ClientImg</th>
                                 </tr>";
 
                         while($rowArray = mysqli_fetch_assoc($queryResult)) {	
@@ -47,6 +49,11 @@
                             $projSummary = $rowArray["proj_summary"];
                             $finalSummary = $rowArray["final_summary"];
                             $designProcess = $rowArray["design_process"];
+                            $image1 = $rowArray["image1"];
+                            $image2 = $rowArray["image2"];
+                            $image3 = $rowArray["image3"];
+                            $design_image1= $rowArray["design_image1"];
+                            $design_image2= $rowArray["design_image2"];
                             $clientImage = $rowArray["client_image"];
                             echo "<tr>";
                                 echo "<td>".$id."</td>";
@@ -55,10 +62,12 @@
                                 echo "<td><img style='width:40px; height:40px' src='".$image." '></td>";
                                 echo "<td>".$content."</td>";
                                 echo "<td>".$testimonial."</td>";
-                                echo "<td><img style='width:50px; height:50px' src='".$heroImage." '></td>";
+                                echo "<td><img style='width:60px; height:40px' src='".$heroImage." '></td>";
                                 echo "<td>".$projSummary."</td>";
                                 echo "<td>".$finalSummary."</td>";
+                                echo "<td><img style='width:40px; height:40px margin:2px;' src='".$image1." '><img style='width:40px; height:40px margin:2px;' src='".$image3." '><img style='width:40px; height:40px margin:2px;' src='".$image3." '></td>";
                                 echo "<td>".$designProcess."</td>";
+                                echo "<td><img style='width:40px; height:40px' src='".$design_image1." '><img style='width:40px; height:40px' src='".$design_image2." '></td>";
                                 echo "<td><img style='width:40px; height:40px' src='".$clientImage." '></td>";
                                 echo "<td><a class='btn btn-info' href='_edit.php?tb=portfolio_tb&id=".$id."'>Edit</a></td>";
                                 echo "<td><a class='btn btn-danger' href='_delete_process.php?id=".$id."&tb=portfolio_tb'>Delete</a></td>";
@@ -66,6 +75,7 @@
                         }
 
                         echo "</table>";
+                        echo "</div>";
                     }
                     else {
                         echo "<p>No info to display!</p>";
