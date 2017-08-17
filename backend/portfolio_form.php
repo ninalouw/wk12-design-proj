@@ -162,22 +162,6 @@
         </div>
 </div>
 <?php include 'back_footer.php'?>
-    <script>
-        $(function(){
-            var idArray = [['#imageSelect1', '#image-preview1'], ['#imageSelect2', '#image-preview2'],
-                            ['#imageSelect3', '#image-preview3'], ['#imageSelect4', '#image-preview4'],
-                            ['#imageSelect5', '#image-preview5'], ['#imageSelect6', '#image-preview6'],
-                            ['#imageSelect7', '#image-preview7'], ['#imageSelect8', '#image-preview8']];
-            var myMap = new Map(idArray);
-            myMap.forEach(function(imgDivId, selectBoxId) {
-                $(selectBoxId).change(function(){
-                    var selectedImage = $(this).val();
-                    $(imgDivId).html('<p class="text-muted">Image Preview</p><img class="img-responsive" src="'+selectedImage+'" alt="image" />');
-                });
-
-            });
-        });
-    </script>
             <?php
                 include "db.php";
                 db_connect();
