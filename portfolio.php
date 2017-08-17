@@ -56,7 +56,7 @@
                                     <h3>$title</h3>
                                     <p>$content</p>
                                     <hr>
-                                    <span class='text-muted'><button href='portfolio_detail.php?tb=portfolio_tb&id=".$id."' class='btn-circle'><a href='portfolio_detail.php?tb=portfolio_tb&id=".$id."'>&rarr;</a></button>View</span>
+                                    <span class='text-muted'><button href='portfolio_detail.php?tb=portfolio_tb&id=".$id."' class='btn-circle active'><a href='portfolio_detail.php?tb=portfolio_tb&id=".$id."'>&rarr;</a></button>View</span>
                                 </div>
                                 ";
 

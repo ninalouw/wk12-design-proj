@@ -576,3 +576,10 @@ hr {
 .contact-form {
     padding-top:50px;
 }
+
+.image-preview img {
+    margin:10px;
+    width:35%;
+    height:35%;
+    @include card-shadow();
+}

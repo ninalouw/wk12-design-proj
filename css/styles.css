@@ -526,3 +526,12 @@ hr {
 .contact-form {
   padding-top: 50px;
 }
+
+.image-preview img {
+  margin: 10px;
+  width: 35%;
+  height: 35%;
+  -webkit-box-shadow: 0px 2px 6px 0px #706c70;
+  -moz-box-shadow: 0px 2px 6px 0px #706c70;
+  box-shadow: 0px 2px 6px 0px #706c70;
+}

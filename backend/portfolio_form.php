@@ -30,26 +30,28 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Card Image</label>
-                        	<select  class="form-control" id="imageSelect" name="image" required>
+                        	<select  class="form-control" class="imageSelect" id="imageSelect1" name="image" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
                                     }
                                 ?>
                             </select>
+                            <div class="image-preview" id="image-preview1"></div>
                     </div>
                 </div>
                 <p>Portfolio Detail Section</p>
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Hero Image</label>
-                        	<select  class="form-control" id="imageSelect" name="hero_image" required>
+                        	<select  class="form-control" class="imageSelect" id="imageSelect2" name="hero_image" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
                                     }
                                 ?>
                             </select>
+                            <div class="image-preview" id="image-preview2"></div>
                     </div>
                 </div>
                 <div class="form-group row">
@@ -67,37 +69,40 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Featured Image 1</label>
-                        	<select  class="form-control" id="imageSelect" name="image1" required>
+                        	<select  class="form-control" class="imageSelect" id="imageSelect3" name="image1" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
                                     }
                                 ?>
                             </select>
+                            <div class="image-preview" id="image-preview3"></div>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Featured Image 2</label>
-                        	<select  class="form-control" id="imageSelect" name="image2" required>
+                        	<select  class="form-control" id="imageSelect4" name="image2" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
                                     }
                                 ?>
                             </select>
+                            <div class="image-preview" id="image-preview4"></div>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Featured Image 3</label>
-                        	<select  class="form-control" id="imageSelect" name="image3" required>
+                        	<select  class="form-control" id="imageSelect5" name="image3" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
                                     }
                                 ?>
                             </select>
+                            <div class="image-preview" id="image-preview5"></div>
                     </div>
                 </div>
                 <div class="form-group row">
@@ -109,25 +114,27 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Design Image 1</label>
-                        	<select  class="form-control" id="imageSelect" name="design_image1" required>
+                        	<select  class="form-control" id="imageSelect6" name="design_image1" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
                                     }
                                 ?>
                             </select>
+                            <div class="image-preview" id="image-preview6"></div>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Design Image 2</label>
-                        	<select  class="form-control" id="imageSelect" name="design_image2" required>
+                        	<select  class="form-control" id="imageSelect7" name="design_image2" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
                                     }
                                 ?>
                             </select>
+                            <div class="image-preview" id="image-preview7"></div>
                     </div>
                 </div>
                 <div class="form-group row">
@@ -139,13 +146,14 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Client Image</label>
-                        	<select  class="form-control" id="imageSelect" name="client_image" required>
+                        	<select  class="form-control" id="imageSelect8" name="client_image" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
                                     }
                                 ?>
                             </select>
+                            <div class="image-preview" id="image-preview8"></div>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary" name="submit">Submit</button>
@@ -153,6 +161,23 @@
             <br>
         </div>
 </div>
+<?php include 'back_footer.php'?>
+    <script>
+        $(function(){
+            var idArray = [['#imageSelect1', '#image-preview1'], ['#imageSelect2', '#image-preview2'],
+                            ['#imageSelect3', '#image-preview3'], ['#imageSelect4', '#image-preview4'],
+                            ['#imageSelect5', '#image-preview5'], ['#imageSelect6', '#image-preview6'],
+                            ['#imageSelect7', '#image-preview7'], ['#imageSelect8', '#image-preview8']];
+            var myMap = new Map(idArray);
+            myMap.forEach(function(imgDivId, selectBoxId) {
+                $(selectBoxId).change(function(){
+                    var selectedImage = $(this).val();
+                    $(imgDivId).html('<p class="text-muted">Image Preview</p><img class="img-responsive" src="'+selectedImage+'" alt="image" />');
+                });
+
+            });
+        });
+    </script>
             <?php
                 include "db.php";
                 db_connect();
@@ -214,4 +239,4 @@
                     echo "<script> location.replace('logIn.php')</script>";
                 }
             ?> 
-<?php include 'back_footer.php'?>
+

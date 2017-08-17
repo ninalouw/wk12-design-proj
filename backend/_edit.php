@@ -42,7 +42,7 @@
 								if($name === "content" || $name === "testimonial" || $name === "proj_summary" || $name === "final_summary" || $name === "design_process" ) {
                                     echo "<div class='form-group row'>";
                                     echo "<div class='col-sm-12 col-md-6 col-lg-6'>";
-									echo '<label>'.$name.': </label><input rows="8" style="height:100px;width:700px" type="text" class="form-control" name="'.$name.'" value="'.$value.'">
+									echo '<label>'.$name.': </label><textarea rows="8" type="text" class="form-control" name="'.$name.'">'.$value.'</textarea>
 										<br><br>';
                                     echo "</div>";
                                     echo "</div>";
