@@ -21,20 +21,51 @@ $(function(){
         $(this).children('.team-overlay').hide();
     });
 
-    /*this adds an image preview in the portfolio_form 
-    */
-    var idArray = [['#imageSelect1', '#image-preview1'], ['#imageSelect2', '#image-preview2'],
-    ['#imageSelect3', '#image-preview3'], ['#imageSelect4', '#image-preview4'],
-    ['#imageSelect5', '#image-preview5'], ['#imageSelect6', '#image-preview6'],
-    ['#imageSelect7', '#image-preview7'], ['#imageSelect8', '#image-preview8']];
-    var myMap = new Map(idArray);
-    myMap.forEach(function (imgDivId, selectBoxId) {
-        $(selectBoxId).change(function () {
-            var selectedImage = $(this).val();
-            $(imgDivId).html('<p class="text-muted">Image Preview</p><img class="img-responsive" src="' + selectedImage + '" alt="image" />');
+
+
+        $slideshow = $(".gallery ul");
+        $slideactive = $slideshow.find("li.each").first().addClass('active').show().fadeIn();
+        //jquery to use next arrow btn
+        $(".direction .next").click(function () {
+            $slideactive = $slideshow.find("li.active").next().fadeIn();
+            if (!$slideactive.size())
+                $slideactive = $slideshow.find("li.each").first(); 
+                $slideshow.find("li.active").removeClass("active");
+            $slideactive.addClass("active");
         });
 
+    /*image slider*/
+    // var imageArray = ['img/about-work-hero.jpg', 'img/hero.jpg', 'img/contact-hero-1.jpg', 'img/contact-hero.jpg', 'img/hero-about.jpg'];
+    
+    // //make below func run onload? onmouseover?
+
+    // function imageSlider(){
+    //     var counter = 0;
+    //     //set attr
+    //     console.log(imageArray[counter]);
+    //     $('#img-slider').attr("src", "imageArray[counter]");
+    //     //increment counter
+    //     counter += 1;
+    //     if (counter > imageArray.length){
+    //         counter = 0;
+    //     }
+    // }
+    // //make a set interval that calls this func
+    // // imageSlider();
+    // setInterval(function () { 
+    //     imageSlider();
+    // }, 3000);
+
+    /*this adds an image preview in the backend portfolio_form.php, so that 
+    client can see what image they are selecting 
+    */
+    $('select, .imageSelect').change(function() {
+        var selectedImage = $(this).val();
+        var previewDiv = $(this).siblings('.image-preview');
+        $(previewDiv).html('<p class="text-muted">Image Preview</p><img class="img-responsive" src="' + selectedImage + '" alt="image" />');
     });
 });
+
+
 
 

@@ -30,7 +30,7 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Card Image</label>
-                        	<select  class="form-control" class="imageSelect" id="imageSelect1" name="image" required>
+                        	<select  class="form-control imageSelect" id="imageSelect1" name="image" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
@@ -44,7 +44,7 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Hero Image</label>
-                        	<select  class="form-control" class="imageSelect" id="imageSelect2" name="hero_image" required>
+                        	<select  class="form-control imageSelect" id="imageSelect2" name="hero_image" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
@@ -69,7 +69,7 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Featured Image 1</label>
-                        	<select  class="form-control" class="imageSelect" id="imageSelect3" name="image1" required>
+                        	<select  class="form-control imageSelect" id="imageSelect3" name="image1" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
@@ -82,7 +82,7 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Featured Image 2</label>
-                        	<select  class="form-control" id="imageSelect4" name="image2" required>
+                        	<select  class="form-control imageSelect" id="imageSelect4" name="image2" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
@@ -95,7 +95,7 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Featured Image 3</label>
-                        	<select  class="form-control" id="imageSelect5" name="image3" required>
+                        	<select  class="form-control imageSelect" id="imageSelect5" name="image3" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
@@ -114,7 +114,7 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Design Image 1</label>
-                        	<select  class="form-control" id="imageSelect6" name="design_image1" required>
+                        	<select  class="form-control imageSelect" id="imageSelect6" name="design_image1" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
@@ -127,7 +127,7 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Design Image 2</label>
-                        	<select  class="form-control" id="imageSelect7" name="design_image2" required>
+                        	<select  class="form-control imageSelect" id="imageSelect7" name="design_image2" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
@@ -146,7 +146,7 @@
                 <div class="form-group row">
                     <div class="col-md-6 col-lg-6">
                         <label for="image">Client Image</label>
-                        	<select  class="form-control" id="imageSelect8" name="client_image" required>
+                        	<select  class="form-control imageSelect" id="imageSelect8" name="client_image" required>
                                 <?php
                                     foreach(glob('../img/*[.jpg, .jpeg, .png, .PNG]') as $filename){
                                         echo "<option>" . $filename . "</option>";
