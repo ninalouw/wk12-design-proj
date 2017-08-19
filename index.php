@@ -4,30 +4,38 @@
          <div class="wrapper">
             <div class="section section-header">
                 <div class="parallax pattern-image">
-                    <!-- <img id="img-slider" src="img/hero.jpeg"> -->
-                    <!-- A wondrous gallery slider -->
-                    <div class="gallery">
-                        <ul>
-                            <li class="each">
-                                <img src="img/hero.jpeg" alt="hero image" />
-                            </li>
-                            <li class="each">
-                                <img src="img/hero-about.jpg" alt="hero image" />
-                            </li>
-                            <li class="each">
-                                <img src="img/about-work-hero.jpg" alt="hero image" />
-                            </li>
-                        </ul>
-                        <div class="direction">
-                            <div class="next">
-                                <svg height="64px" width="32px" x="0px" y="0px">
-                                    <g>
-                                        <path d="M7.998,64c-0.41,0-0.824-0.126-1.181-0.387c-0.891-0.653-1.083-1.905-0.431-2.796l21.136-28.821L6.509,3.178c-0.65-0.893-0.455-2.144,0.438-2.794C7.84-0.266,9.091-0.07,9.741,0.822l21.875,30c0.513,0.704,0.512,1.659-0.003,2.361l-22,30C9.221,63.717,8.614,64,7.998,64z"></path>
-                                    </g>
-                                </svg>
+                     <!-- <img src="img/hero.jpeg">  -->
+                        <div class="image-slider-container">
+                        <!-- A wondrous gallery slider -->
+                            <div class="gallery">
+                                <ul>
+                                    <li class="each">
+                                        <img src="img/hero.jpeg" alt="hero image" />
+                                    </li>
+                                    <li class="each">
+                                        <img src="img/our-team-hero.jpg" alt="hero image" />
+                                    </li>
+                                    <li class="each">
+                                        <img src="img/our-team-hero-2.jpg" alt="hero image" />
+                                    </li>
+                                    <li class="each">
+                                        <img src="img/new-work-hero.jpg" alt="hero image" />
+                                    </li>
+                                    <li class="each">
+                                        <img src="img/our-team-hero-3.jpg" alt="hero image" />
+                                    </li>
+                                </ul>
+                                <div class="direction">
+                                    <div class="next">
+                                        <svg height="64px" width="32px" x="0px" y="0px">
+                                            <g>
+                                                <path d="M7.998,64c-0.41,0-0.824-0.126-1.181-0.387c-0.891-0.653-1.083-1.905-0.431-2.796l21.136-28.821L6.509,3.178c-0.65-0.893-0.455-2.144,0.438-2.794C7.84-0.266,9.091-0.07,9.741,0.822l21.875,30c0.513,0.704,0.512,1.659-0.003,2.361l-22,30C9.221,63.717,8.614,64,7.998,64z"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <div class="container">
                         <div class="content row">
                                 <h1>Digital First Food</h1>
