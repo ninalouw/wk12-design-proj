@@ -37,8 +37,8 @@ a:hover, a:focus {
 }
 
 .logo {
-  width: 200px;
-  height: 25px;
+  width: 270px;
+  height: 27px;
 }
 
 .navbar {
@@ -52,7 +52,7 @@ a:hover, a:focus {
 .navbar .navbar-brand {
   font-weight: 600;
   margin: 5px 0px;
-  padding: 20px 15px;
+  padding: 10px 7px;
   font-size: 1.8rem;
   font-family: "Roboto", Helvetica, sans-serif;
   font-weight: bold;
@@ -189,14 +189,19 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
-  margin: 60px;
-  padding: 20px;
+  margin: 50px;
+  padding: 25px;
+  max-width: 800px;
 }
 
 .card-content {
   align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .card-image {
@@ -205,12 +210,105 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   max-width: 500px;
 }
 
-.card-content h3, p, button {
-  padding: 10px;
+.card-content h3, p {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  margin: 0px !important;
 }
 
 .card-content h3 {
   font-size: 5rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
+  /* Navbar positioning*/
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .overlap-container {
+    width: 100%;
+    display: flex;
+  }
+  .card-home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 60px;
+  }
+  .card-overlap {
+    margin-left: 0px;
+    margin-right: 0px;
+    transform: translate(-70px, 90px);
+    padding-left: 40px;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .overlap-container {
+    width: 100%;
+    display: flex;
+  }
+  .card-home {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .card-content {
+    max-width: 500px;
+  }
+  .card-image {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card-home {
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card-content {
+    max-width: 300px;
+  }
+  .card-image {
+    max-width: 300px;
+  }
+  .overlap-container {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .image-slider-container {
+    display: none !important;
+  }
+  .hero-img {
+    display: block !important;
+    height: 90%;
+  }
 }
 
 .page-footer {
@@ -613,4 +711,39 @@ hr {
   -webkit-box-shadow: 0px 2px 6px 0px #706c70;
   -moz-box-shadow: 0px 2px 6px 0px #706c70;
   box-shadow: 0px 2px 6px 0px #706c70;
+}
+
+@media only screen and (max-width: 500px) {
+  .section-header h1 {
+    font-size: 5rem;
+  }
+  .section-header p {
+    font-size: 1.5rem;
+  }
+  nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background-color: white;
+  }
+  .navbar-default {
+    background-color: white;
+    opacity: 0.5;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 4rem !important;
+  }
+  h3 {
+    font-size: 3rem !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  .logo {
+    width: 150px;
+    height: 15px;
+  }
+  .content-header-1 {
+    display: none;
+  }
 }

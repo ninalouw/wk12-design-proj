@@ -4,6 +4,7 @@
          <div class="wrapper">
             <div class="section section-header">
                 <div class="parallax pattern-image">
+                    <img class="hero-img" style="display:none;" src="img/new-work-hero.jpg" alt="hero image">
                      <!-- <img src="img/hero.jpeg">  -->
                         <div class="image-slider-container">
                         <!-- A wondrous gallery slider -->
@@ -58,56 +59,53 @@
                 <h2>Client Work</h2>
             </div>
         </div>
-        <!--three cards of work content  -->
-        <div class="row card-home">
-            <div class="card-content col-sm-12 col-md-4 col-lg-4 ">
-                <h3>33 Degrees</h3>
-                <p>A fresh redesign of the 33 Degrees food ordering interface.
-                  The client came to us for a complete rebranding and rebuilding
-                   of their mobile app.
-                </p>
-                <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
+        <!--four cards of work content  -->
+        <div class="overlap-container">
+            <div class="row card-home">
+                <div class="card-content col-sm-12 col-xs-12">
+                    <h3>33 Degrees</h3>
+                    <p>A fresh redesign of the 33 Degrees food ordering interface.
+                    The client came to us for a complete rebranding and rebuilding
+                    of their mobile app.
+                    </p>
+                    <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
+                </div>
+                    <img class="card-image img-responsive" src='img/home-phone-400.jpg' alt="a great photo">
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <img class="card-image img-responsive" src='img/home-phone-400.jpg' alt="a great photo">
+
+            <div class="row card-home card-overlap">
+                <div class="card-content col-sm-12 col-xs-12">
+                    <h3>Maple Food</h3>
+                    <p>A fresh redesign of the Fresh Prep food ordering interface.
+                    The client came to us for a complete rebranding and rebuilding
+                    of their mobile app.
+                    </p>
+                    <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
+                </div>
+                    <img class="card-image img-responsive" src='img/work_maple-400.jpg' alt="a great photo">
             </div>
         </div>
 
-        <div class="row card-home">
-            <div class="card-content col-sm-12 col-md-4 col-lg-4 ">
-                <h3>Fresh Prep</h3>
-                <p>A fresh redesign of the Fresh Prep food ordering interface.
-                  The client came to us for a complete rebranding and rebuilding
-                   of their mobile app.
-                </p>
-                <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
+        <div class="overlap-container">
+            <div class="row card-home">
+                <div class="card-content col-sm-12 col-xs-12">
+                    <h3>Block 16</h3>
+                    <p>A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
+                    casual family-restaurant serving top-quality food.
+                    </p>
+                    <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
+                </div>
+                    <img class="card-image img-responsive" src='img/block-16-400.jpg' alt="a great photo">
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <img class="card-image img-responsive" src='img/work_maple-400.jpg' alt="a great photo">
-            </div>
-        </div>
 
-        <div class="row card-home">
-            <div class="card-content col-sm-12 col-md-4 col-lg-4 ">
-                <h3>Block 16</h3>
-                <p>A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
-                casual family-restaurant serving top-quality food.
-                </p>
-                <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
-            </div>
-            <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <img class="card-image img-responsive" src='img/block-16-400.jpg' alt="a great photo">
-            </div>
-        </div>
-        <div class="row card-home">
-            <div class="card-content col-sm-12 col-md-4 col-lg-4 ">
-                <h3>Food Finder</h3>
-                <p>A great project for Food Finder Foursquare app. We rebuilt their mobile app to provide quick delivery of top-quality food.
-                </p>
-                <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
-            </div>
-            <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <img class="card-image img-responsive" src='img/tablet-purple-400.jpg' alt="a great photo">
+            <div class="row card-home card-overlap">
+                <div class="card-content col-sm-12 col-xs-12">
+                    <h3>Food Finder</h3>
+                    <p>A great project for Food Finder Foursquare app. We rebuilt their mobile app to provide quick delivery of top-quality food.
+                    </p>
+                    <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
+                </div>
+                    <img class="card-image img-responsive" src='img/tablet-purple-400.jpg' alt="a great photo">
             </div>
         </div>
 <!-- php footer -->

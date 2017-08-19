@@ -4,7 +4,7 @@
 <div class="wrapper">
     <div class="section section-header">
         <div class="parallax pattern-image">
-            <img src="img/contact-hero-1.jpg">
+            <img class="hero-img" src="img/contact-hero-1.jpg">
             <div class="container">
                 <div class="content row">
                         <h1>Contact Us</h1>
