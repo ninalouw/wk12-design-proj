@@ -61,9 +61,6 @@
         </div>
         </div>
       </div>
-      <!-- Success message -->
-      <!-- <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div> -->
-      <!-- Button -->
       <div class="form-group">
         <label class="col-md-4 control-label"></label>
         <div class="col-md-4">
@@ -107,10 +104,10 @@
 				$didItSend = mail($to, $subject, $message, $headers);
 
 				if ( $didItSend === true ) {   
-					echo "<p>Email sent successfully to $to</p>";   
+					echo '<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us '.$to.', we will get back to you shortly.</div>';   
 				}
 				else {  
-					echo "<p>Email failed to send</p>";
+					echo '<div class="alert alert-warning" role="alert" id="success_message">Failure <i class="glyphicon glyphicon-thumbs-down"></i> Please try again.</div>';   
 				}
 		}
     
