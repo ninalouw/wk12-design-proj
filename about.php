@@ -4,7 +4,7 @@
     <div class="wrapper">
         <div class="section section-header">
             <div class="parallax pattern-image">
-                <img class="hero-img" src="img/hero-about.jpg" alt="hero image">
+                <img class="hero-img" src="img/about-hero-2.jpg" alt="hero image">
                 <div class="container">
                     <div class="content row">
                         <h1>Take a Bite</h1>
@@ -16,18 +16,16 @@
     </div>
     <!-- rest of page content -->
     <div class="row content-flex-container">
-        <div class="about-card col-sm-12 col-md-5 col-lg-5">
+        <div class="about-card col-xs-12 col-sm-12 col-md-5 col-lg-5">
             <div class="about-card-content ">
                 <h3>The Success Recipe</h3>
-                <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard
-                    tongue The Game The Game or so I've been told, I'm a nice guy my wife finishing my novel bald
-                    is sexy blackjack. Cosplay no robots posing as real people extreme with lots of self-respect
-                    I don't really keep a budget if you have a BMI under 25.
+                <p>At Boxspring Studios we help our clients rethink their business through a customer experience mindset. 
+                    We help them navigate the ever changing business landscape and align their organization around what truly matters to customers. 
+                    The result is a clear story for how their strategy should translate to customers, with tools that propel their organization in how to change.
                 </p>
-                <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard
-                    tongue The Game The Game or so I've been told, I'm a nice guy my wife finishing my novel bald
-                    is sexy blackjack. Cosplay no robots posing as real people extreme with lots of self-respect
-                    I don't really keep a budget if you have a BMI under 25.
+                <p>We collaborate with restaurants to help them visualize and plan how their vision can materialize into game changing products and services.
+                     Our work spans the complete innovation process from customer insight and opportunity mapping to technical feasibility and prototyping.
+                     The result is a blueprint for what to design and build.
                 </p>
             </div>
         </div>
@@ -35,18 +33,15 @@
     </div>
 
     <div class="row content-flex-container">
-        <div class="about-card col-sm-12 col-md-5 col-lg-5">
+        <div class="about-card col-xs-12 col-sm-12 col-md-5 col-lg-5">
             <div class="about-card-content ">
                 <h3>Opening Night</h3>
-                <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard tongue
-                    The Game The Game or so I've been told, I'm a nice guy my wife finishing my novel bald is sexy blackjack.
-                    Cosplay no robots posing as real people extreme with lots of self-respect I don't really keep a budget
-                    if you have a BMI under 25.
+                <p>At Boxspring Studios we believe that you should make products that really mean something to your customers. 
+                    Our teams bake transformative ways of working into your business along the way.
                 </p>
-                <p>Ages 18 - 22 I enjoy staying up late unworthy of serious consideration. Keep up with me my lizard tongue
-                    The Game The Game or so I've been told, I'm a nice guy my wife finishing my novel bald is sexy blackjack.
-                    Cosplay no robots posing as real people extreme with lots of self-respect I don't really keep a budget
-                    if you have a BMI under 25.
+                <p>We learn through making. Then we apply everything we know to create game-changing digital products and one stop shop services for our clients.
+                    And we always do it collaboratively, through expertly coached teamwork. 
+                    You and us, working together, discovering answers to the biggest questions your business faces. Then rapidly bringing them to life.
                 </p>
             </div>
         </div>
@@ -84,8 +79,8 @@
             </div>
         </div>
         <div class="row content-flex-container-2">
-            <div class="about-card col-sm-12 col-md-4 col-lg-4" id="our-team">
-                <div class="about-card-content ">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="our-team">
+                <div class="about-card-content-2">
                     <h3>The Team</h3>
                     <p> We are a team of committed creatives who love what we do and serving the food industry.
                     </p>
@@ -96,9 +91,12 @@
                     <button href="services.php" class="btn-primary"><a href="team.php">Meet Us</a></button>
                 </div>
             </div>
-            <img class="about-img-3 img-responsive" src="img/phone-trio-400.jpg" alt="photo">
-            <div class="about-card col-sm-12 col-md-4 col-lg-4" id="our-services">
-                <div class="about-card-content ">
+                <!-- <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" -->
+                    <img class="about-img-3 img-responsive" src="img/phone-trio-400.jpg" alt="photo">
+                <!-- </div> -->
+                <img style="display:none;" class="about-img-3 img-responsive" src="img/tablet-purple-400.jpg" alt="photo">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="our-services">
+                <div class="about-card-content-2 ">
                     <h3>Our Services</h3>
                     <p> Boxspring Studios is truly a one-stop shop, with a range of services to cater to all of your needs.
                     </p>
@@ -111,12 +109,8 @@
             </div>
         </div>
         <div class="row content-flex-container-2">
-            <div class="about-card col-sm-12 col-md-6 col-lg-6" id="our-work">
-                <div class="about-card-content-overlay" id="our-work-overlay">
-                    <h3 class="h3-overlay text-muted text-uppercase"><a href="about_work.php">See More</a></h3>
-                    <img src='img/tablet-purple-400.jpg' alt='photo'>
-                </div>
-                <div id="our-work-content" class="about-card-content">
+            <div class="col-sm-12 col-md-6 col-lg-6" id="our-work">
+                <div id="our-work-content" class="about-card-content-2">
                     <h3>How We Work</h3>
                     <p>As a team we are highly committed to our unique, tried and tested work process.
                     </p>
@@ -124,7 +118,7 @@
                     </p>
                     <p> We are effective work delegators, so that each team member can employ their best skills and we can create the optimum product.
                     </p>
-                    <button href="services.php" class="btn-primary"><a href="about_work.php">How We Work</a></button>
+                    <button href="about_work.php" class="btn-primary"><a href="about_work.php">How We Work</a></button>
                 </div>
             </div>
             <img class="about-img-3 img-responsive" src="img/phone-blue-400.jpg" alt="photo">

@@ -1,16 +1,5 @@
 $(function(){
     /*this jquery hides and shows job titles*/
-    $('#our-work-overlay').hide();
-    $('#our-work').on("mouseover", function () {
-        $('#our-work-overlay').show();
-        $('#our-work-content').hide();
-    });
-
-    $('#our-work').on("mouseout", function () {
-        $('#our-work-overlay').hide();
-        $('#our-work-content').show();
-    });
-
     $('.team-overlay').hide();
     $('.team-image-div').on("mouseover", function () {
         $(this).children('.team-overlay').show();
@@ -21,54 +10,51 @@ $(function(){
         $(this).children('.team-overlay').hide();
     });
 
-
-
-        /*Jquery image slider
-        This is the func that makes the slides auto play on
-        the index and about pages
-        */
-        var counter = 0;
-        function autoImageSlider(){
-            $slideshow = $(".gallery ul");
-            $slideActive = $slideshow.find("li.each").eq(counter).addClass('active').show().fadeIn(4000);
-            counter += 1;
-            $slideshow.find("li.each").eq(counter - 1).removeClass("active");
-            $slideActive = $slideshow.find("li.each").eq(counter).addClass('active').fadeIn(4000);
-            console.log($slideActive.size());
-            if (!$slideActive.size()){
-                counter = 0;
-                $slideActive = $slideshow.find("li.each").first();
-                $slideshow.find("li.active").removeClass("active");
-                $slideActive.addClass("active");
-            }
-        }
-        /*Jquery image slider
-        This jquery makes the slides go from one to the next
-        when the user presses the arrow button
-        */
+    /*Jquery image slider
+    This is the func that makes the slides auto play on
+    the index and about pages
+    */
+    var counter = 0;
+    function autoImageSlider(){
         $slideshow = $(".gallery ul");
-        $slideActive = $slideshow.find("li.each").first().addClass('active').show().fadeIn(4000);
-        $(".direction .next").click(function () {
-            $slideActive = $slideshow.find("li.active").next().fadeIn(4000);
-            if (!$slideActive.size())
-                $slideActive = $slideshow.find("li.each").first();
+        $slideActive = $slideshow.find("li.each").eq(counter).addClass('active').show().fadeIn(4000);
+        counter += 1;
+        $slideshow.find("li.each").eq(counter - 1).removeClass("active");
+        $slideActive = $slideshow.find("li.each").eq(counter).addClass('active').fadeIn(4000);
+        console.log($slideActive.size());
+        if (!$slideActive.size()){
+            counter = 0;
+            $slideActive = $slideshow.find("li.each").first();
             $slideshow.find("li.active").removeClass("active");
             $slideActive.addClass("active");
-        });
-
-        $('.about-image-slider-container, .image-slider-container').on('click', function(){
-            stopSlider();
-        });
-        /* sets the interval and calls autoImageSlider*/
-        var autoSlide = setInterval(function () { 
-                            autoImageSlider();
-                        }, 4000);
-        /* stops the interval and the slider
-        called by onlick of stop-slider btn*/
-        function stopSlider() {
-            clearInterval(autoSlide);
         }
+    }
+    /*Jquery image slider
+    This jquery makes the slides go from one to the next
+    when the user presses the arrow button
+    */
+    $slideshow = $(".gallery ul");
+    $slideActive = $slideshow.find("li.each").first().addClass('active').show().fadeIn(4000);
+    $(".direction .next").click(function () {
+        $slideActive = $slideshow.find("li.active").next().fadeIn(4000);
+        if (!$slideActive.size())
+            $slideActive = $slideshow.find("li.each").first();
+        $slideshow.find("li.active").removeClass("active");
+        $slideActive.addClass("active");
+    });
 
+    $('.about-image-slider-container, .image-slider-container').on('click', function(){
+        stopSlider();
+    });
+    /* sets the interval and calls autoImageSlider*/
+    var autoSlide = setInterval(function () { 
+                        autoImageSlider();
+                    }, 4000);
+    /* stops the interval and the slider
+    called by onlick of stop-slider btn*/
+    function stopSlider() {
+        clearInterval(autoSlide);
+    }
 
     /*this adds an image preview in the backend portfolio_form.php, so that 
     client can see what image they are selecting 

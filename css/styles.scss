@@ -334,10 +334,23 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 
 }
 @media only screen and (max-width:1000px){
-    .gallery ul li.each.active, .gallery ul li.each.active img { 
+    .image-slider-container .gallery ul li.each.active, .image-slider-container .gallery ul li.each.active img { 
         height:900px !important;
         width:100%;
     }
+    .about-img {
+        transform: translate(-200px,0px) !important;
+    }
+  .about-image-slider-container {
+        transform: translate(180px, -280px) !important;
+  }
+    .content-flex-container-2 {
+      flex-wrap: wrap !important;
+      padding:25px !important;
+  }
+  .about-img-4 {
+      display:block !important;
+  }
 }
 @media only screen and (max-width:700px){
     .card-home {
@@ -407,11 +420,15 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     display: flex;
     align-items: flex-start;
     background-color: white;
-    @include margin-padding($def-margin, $def-padding);
+    @include margin-padding($def-margin, 25px);
 
 }
 .about-card-content{
     @include margin-padding($def-margin, $def-padding);
+}
+.about-card-content-2 {
+    @include soft-shadow;
+    @include margin-padding($def-margin, 20px);
 }
 .about-card-content p {
  font-size: $para-font-size;
@@ -423,6 +440,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     height: 400px;
     z-index: -2;
     transform: translate(-300px, -200px);
+    // margin:15px;
 }
 
 .about-img-2 {
@@ -430,11 +448,14 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     height: 400px;
     z-index: -2;
     transform: translate(300px, -800px);
+    // margin: 15px;
 }
 .about-img-3 {
     width: 400px;
     height: 400px;
     z-index: -2;
+    margin: 15px;
+    margin-left:28px;
     // transform: translate(300px, -500px);
 }
 
@@ -478,11 +499,12 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 .about-image-slider-container {
-    transform: translate(300px, -300px);
+    transform: translate(370px, -280px);
     display:flex;
     align-items: center;
-    width:700px;
-    height:700px;
+    justify-content: center;
+    width:600px;
+    height:600px;
 }
 .gallery { 
 	position: relative; 
@@ -540,9 +562,9 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 
 //services page
 .services-h1 {
-    @include margin-padding(60px, 20px);
+    @include margin-padding(40px, 20px);
 }
-.services-h1 h1 {
+.services-h1 h2 {
     font-size: $h2;
     text-align: center;
 }
@@ -775,7 +797,7 @@ hr {
         font-size:5rem;
     }
   h2 {
-    font-size: 4rem !important;
+    font-size: 3.5rem !important;
   }
   h3 {
       font-size: 3rem !important;
