@@ -383,6 +383,37 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
         display:block !important;
         height:90%;
     }
+    .about-img {
+        display:none !important;
+    }
+
+    .about-img-2 {
+    // width: 250px;
+    // height: 250px;
+    // z-index: -2;
+    // margin: 100px;
+    // transform: translate(100px, -300px);
+    display:none !important;
+    }
+
+    .about-header-2 h2 {
+        transform: translate(0px, 0px) !important;
+    }
+    .about-image-slider-container {
+        transform: translate(40px, 0px) !important;
+        width:300px !important;
+        height:300px !important;
+        // margin-left:25px !important;
+    }
+    .content-flex-container-2 {
+        transform: translate(0px, 0px) !important;
+        padding:0px !important;
+    }
+    .about-img-3 {
+        display: block !important;
+        width: 300px !important;
+        height: 300px !important;
+    }
 }
 
 //footer

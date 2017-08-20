@@ -30,6 +30,7 @@
             </div>
         </div>
         <img class="about-img img-responsive" src="img/about-rest-400.jpg" alt="photo">
+        <img style="display:none;"class="about-img-3 img-responsive" src="img/work_maple-400.jpg" alt="photo">
     </div>
 
     <div class="row content-flex-container">
