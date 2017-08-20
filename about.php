@@ -29,7 +29,7 @@
                 </p>
             </div>
         </div>
-        <img class="about-img img-responsive" src="img/about-rest-400.jpg" alt="photo">
+        <img class="about-img img-responsive" src="img/restaurant-400.jpg" alt="photo">
         <img style="display:none;"class="about-img-3 img-responsive" src="img/work_maple-400.jpg" alt="photo">
     </div>
 
@@ -59,13 +59,25 @@
             <div class="gallery">
                 <ul>
                     <li class="each">
-                        <img src="img/work_maple-400.jpg" alt="hero image" />
+                        <img src="img/work_maple.png" alt="hero image" />
                     </li>
                     <li class="each">
                         <img src="img/man-phone-400.jpg" alt="hero image" />
                     </li>
                     <li class="each">
+                        <img src="img/maple-slider-600.jpg" alt="hero image" />
+                    </li>
+                    <li class="each">
+                        <img src="img/maple-slider-600-2.jpg" alt="hero image" />
+                    </li>
+                    <li class="each">
                         <img src="img/tablet-purple-400.jpg" alt="hero image" />
+                    </li>
+                    <li class="each">
+                        <img src="img/maple-slider-600-3.jpg" alt="hero image" />
+                    </li>
+                    <li class="each">
+                        <img src="img/phone-lilac-375.jpg" alt="hero image" />
                     </li>
                 </ul>
                 <div class="direction">
@@ -93,9 +105,9 @@
                 </div>
             </div>
                 <!-- <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" -->
-                    <img class="about-img-3 img-responsive" src="img/phone-trio-400.jpg" alt="photo">
+                    <img class="about-img-3 img-responsive" src="img/maple-400-2.jpg" alt="photo">
                 <!-- </div> -->
-                <img style="display:none;" class="about-img-3 img-responsive" src="img/tablet-purple-400.jpg" alt="photo">
+                <img style="display:none;" class="about-img-3 img-responsive" src="img/block-16-400.jpg" alt="photo">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="our-services">
                 <div class="about-card-content-2 ">
                     <h3>Our Services</h3>
@@ -122,7 +134,7 @@
                     <button href="about_work.php" class="btn-primary"><a href="about_work.php">How We Work</a></button>
                 </div>
             </div>
-            <img class="about-img-3 img-responsive" src="img/phone-blue-400.jpg" alt="photo">
+            <img class="about-img-3 img-responsive" src="img/phone-lilac-375.jpg" alt="photo">
         </div>
 
         <!-- php footer -->

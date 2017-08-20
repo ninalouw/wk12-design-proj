@@ -3,7 +3,7 @@
          <div class="wrapper">
             <div class="section section-header">
                 <div class="parallax pattern-image">
-                    <img class="hero-img" src="img/about-work-hero.jpg">
+                    <img class="hero-img" src="img/about-work-hero-1.jpg">
                     <div class="container">
                         <div class="content row">
                                 <h1>How We Work</h1>

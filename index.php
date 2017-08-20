@@ -14,16 +14,19 @@
                                         <img src="img/hero.jpeg" alt="hero image" />
                                     </li>
                                     <li class="each">
-                                        <img src="img/our-team-hero.jpg" alt="hero image" />
+                                        <img src="img/hero-slider-2.jpg" alt="hero image" />
                                     </li>
-                                    <li class="each">
-                                        <img src="img/our-team-hero-2.jpg" alt="hero image" />
+                                     <li class="each">
+                                        <img src="img/about-hero-2.jpg" alt="hero image" />
                                     </li>
                                     <li class="each">
                                         <img src="img/new-work-hero.jpg" alt="hero image" />
                                     </li>
                                     <li class="each">
-                                        <img src="img/our-team-hero-3.jpg" alt="hero image" />
+                                        <img src="img/hero-slider-4.jpg" alt="hero image" />
+                                    </li>
+                                    <li class="each">
+                                        <img src="img/hero-slider-1.jpg" alt="hero image" />
                                     </li>
                                 </ul>
                                 <div class="direction">
@@ -54,6 +57,8 @@
                 <h2>We create meaningful digital and print products for restaurants</h2>
             </div>
         </div> -->
+
+    <div class="container">
         <div class="content-header-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12 ">
                 <h2>Client Work</h2>
@@ -70,14 +75,14 @@
                     </p>
                     <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
                 </div>
-                    <img class="card-image img-responsive" src='img/home-phone-400.jpg' alt="a great photo">
+                    <img class="card-image img-responsive" src='img/maple-400-2.jpg' alt="a great photo">
             </div>
 
             <div class="row card-home card-overlap">
                 <div class="card-content col-sm-12 col-xs-12">
                     <h3>Maple Food</h3>
-                    <p>A fresh redesign of the Fresh Prep food ordering interface.
-                    The client came to us for a complete rebranding and rebuilding
+                    <p>A fresh redesign of the Maple ordering interface.
+                    The client came to us for a rebuilding
                     of their mobile app.
                     </p>
                     <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
@@ -91,7 +96,7 @@
                 <div class="card-content col-sm-12 col-xs-12">
                     <h3>Block 16</h3>
                     <p>A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
-                    casual family-restaurant serving top-quality food.
+                    casual family-restaurant.
                     </p>
                     <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
                 </div>
@@ -108,5 +113,6 @@
                     <img class="card-image img-responsive" src='img/tablet-purple-400.jpg' alt="a great photo">
             </div>
         </div>
+    </div>
 <!-- php footer -->
 <?php include "partials/footer.php"?>

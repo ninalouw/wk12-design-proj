@@ -286,7 +286,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
     .overlap-container {
         width:100%;
         display:flex;
@@ -309,6 +309,12 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     }
     .content-header-2 {
         padding-top:60px;
+    }
+
+    
+    .card-image {
+        width:350px;
+        height:350px;
     }
 
 }
