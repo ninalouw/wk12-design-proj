@@ -49,11 +49,11 @@
             </div>
         </div> 
         <!-- rest of page content -->
-        <div class="content-header-1 row">
+        <!-- <div class="content-header-1 row">
             <div class="col-sm-12 col-md-12 col-lg-12 ">
                 <h2>We create meaningful digital and print products for restaurants</h2>
             </div>
-        </div>
+        </div> -->
         <div class="content-header-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12 ">
                 <h2>Client Work</h2>
