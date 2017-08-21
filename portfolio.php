@@ -8,7 +8,7 @@
                     <div class="content row">
                         <p class="section-header-p">Featured Work</p>
                         <h1>33 Degrees</h1>
-                        <p class=" section-header-p">Transforming a mobile booking product and setting the direction for an entire business offering. A really fun project which we completed very quickly.</p>
+                        <p class=" section-header-p">Transforming a mobile booking product and setting the direction for an entire business offering.</p>
                     </div>
                 </div>
             </div>

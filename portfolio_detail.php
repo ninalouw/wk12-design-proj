@@ -39,7 +39,7 @@
                             //while we have data, echo out allll the html...
                         echo '
                             <div class="services-h1">
-                                <h1>'.$title.'</h1>
+                                <h2>'.$title.'</h2>
                             </div>
 
                             <div class="full-image-container">

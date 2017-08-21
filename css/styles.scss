@@ -101,8 +101,9 @@ a:hover, a:focus {
 }
 
 .logo {
-    width: 270px;
-    height: 27px;
+    width: 260px;
+    height: 26px;
+    margin-top: 3px;
 }
 
 //navbar
@@ -619,11 +620,29 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     text-align: center;
 }
 
+.service-item {
+    margin-bottom:20px;
+}
+.service-item p {
+    padding:5px;
+}
+
 .services-form {
     display: flex;
     align-items: flex-start;
     background-color: white;
     margin-top:50px;
+}
+
+@media only screen and (max-width:767px){
+    .service-item {
+        text-align: center;
+    }
+    .service-item p {
+        max-width:600px;
+        text-align: center;
+    }
+   
 }
 
 
