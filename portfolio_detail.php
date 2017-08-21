@@ -80,8 +80,8 @@
 
                                     <!-- three final product images -->
                                 <div class="row trio-image-container">
-                                    <img class="col-md-6 col-lg-6 col-sm-12 trio-image img-responsive" src='.$designImage1.' alt="portfolio image">
-                                    <img class="col-md-6 col-lg-6 col-sm-12 trio-image img-responsive" src='.$designImage2.' alt="portfolio image">
+                                    <img class="col-md-6 col-lg-6 col-sm-12 design-image img-responsive" src='.$designImage1.' alt="portfolio image">
+                                    <img class="col-md-6 col-lg-6 col-sm-12 design-image img-responsive" src='.$designImage2.' alt="portfolio image">
                                 </div>
 
                                 <div class="container client-container">

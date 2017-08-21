@@ -603,6 +603,10 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   .content-flex-container-3 {
     flex-wrap: wrap;
   }
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .body {
@@ -744,6 +748,11 @@ hr {
   height: 400px;
 }
 
+.design-image {
+  width: 400px;
+  height: 400px;
+}
+
 .padding {
   padding-bottom: 50px;
   padding-top: 50px;
@@ -790,6 +799,32 @@ hr {
   padding: 40px;
 }
 
+.contact-container {
+  display: flex;
+}
+
+.contact-details {
+  background-color: white;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
+  padding: 40px;
+  margin: 20px;
+}
+
+.contact-details h3 {
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: #51418E;
+}
+
+.contact-details > address > strong {
+  color: #9013FE;
+}
+
+.contact-details > address > a {
+  color: #6d13fe;
+}
+
 .team-name {
   font-family: "Roboto", Helvetica, sans-serif;
   font-size: 2rem;
@@ -807,7 +842,12 @@ hr {
 }
 
 .contact-form {
-  padding-top: 50px;
+  margin: 20px;
+}
+
+.contact-form h3 {
+  color: #51418E;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .image-preview img {
@@ -851,5 +891,23 @@ hr {
   }
   .content-header-1 {
     display: none;
+  }
+  .overlay-image {
+    width: 250px;
+    height: 250px;
+    transform: translate(0px, 40px);
+  }
+  .trio-image {
+    width: 170px;
+    height: 170px;
+    padding: 5px;
+  }
+  .design-image {
+    width: 250px;
+    height: 250px;
+  }
+  .circle-img {
+    width: 170px;
+    height: 170px;
   }
 }

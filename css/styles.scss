@@ -648,6 +648,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .content-flex-container-3 {
         flex-wrap: wrap;
     }
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
    
 }
 
@@ -774,14 +778,14 @@ hr {
 
 .trio-image-middle {
     transform: translate(0px, -80px);
-    // // position: absolute;
-    // z-index:-2;
 }
 .trio-image {
     width:400px;
     height:400px;
-    // display: flex;
-    // flex-basis:90%;
+}
+.design-image {
+    width:400px;
+    height:400px;
 }
 
 .padding {
@@ -827,6 +831,30 @@ hr {
     background-color: white;
     @include soft-shadow;
     padding:40px;
+    // width:600px;
+}
+
+.contact-container {
+    display:flex;
+}
+
+.contact-details {
+    background-color: white;
+    @include soft-shadow;
+    padding:40px;
+    margin:20px;
+}
+.contact-details h3 {
+    font-family: $text-font;
+    color: $button-color;
+}
+
+.contact-details > address > strong {
+    color: $quote-button-color;
+}
+
+.contact-details > address > a {
+    color: $blue-purple;
 }
 
 .team-name {
@@ -846,7 +874,13 @@ hr {
 }
 
 .contact-form {
-    padding-top:50px;
+    // padding-top:50px;
+    margin:20px;
+}
+
+.contact-form h3 {
+    color: $button-color;
+    font-family: $text-font;
 }
 
 .image-preview img {
@@ -873,7 +907,7 @@ hr {
     background-color: white;
     opacity: 0.5;
   }
-    h1 {
+  h1 {
         font-size:5rem;
     }
   h2 {
@@ -892,6 +926,27 @@ hr {
 
   .content-header-1 {
       display:none;
+  }
+
+  .overlay-image {
+    width: 250px;
+    height: 250px;
+    transform: translate(0px, 40px);
+  }
+
+  .trio-image {
+      width:170px;
+      height:170px;
+      padding: 5px;
+  }
+  .design-image {
+      width:250px;
+      height:250px;
+  }
+
+  .circle-img {
+      width:170px;
+      height:170px;
   }
 
 }
