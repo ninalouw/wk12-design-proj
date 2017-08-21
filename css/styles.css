@@ -1,8 +1,17 @@
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Playfair Display", Georgia, serif;
   font-size: 3rem;
+  font-weight: 700;
+  margin: 20px 0 15px;
+}
+
+h1 {
+  font-size: 7rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Playfair Display", Georgia, serif;
   font-weight: 700;
   margin: 30px 0 15px;
 }
@@ -412,8 +421,13 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   padding: 20px;
 }
 
+.about-card-content-2 p {
+  padding: 5px;
+}
+
 .about-card-content p {
   font-size: 1.8rem;
+  padding: 5px;
 }
 
 .about-img {
@@ -615,8 +629,14 @@ hr {
 }
 
 .port-card h3, p, button {
-  margin: 10px;
+  margin: 15px;
   padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.port-card h3 {
+  margin: 0px;
 }
 
 .port-card img {
