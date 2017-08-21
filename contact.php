@@ -86,7 +86,7 @@
 
                 <address>
                 <strong>Email</strong><br>
-                <a href="mailto:#">hello@boxpsring.com</a>
+                <a href="mailto:#">hello@boxspring.com</a>
             </address>
             <img class="img-responsive about-work-img" src="img/contact-500.jpg" alt= 'portfolio image'>
         </div>

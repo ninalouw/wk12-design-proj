@@ -9,7 +9,7 @@
 
             <address>
             <strong>Email</strong><br>
-            <a href="mailto:#">hello@boxpsring.com</a>
+            <a href="mailto:#">hello@boxspring.com</a>
             </address>
         </div>
     </footer>

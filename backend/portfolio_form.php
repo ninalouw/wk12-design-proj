@@ -6,7 +6,7 @@
 <div class="container" style="margin-top:100px">
     <br>
     <br>
-        <h1>Add a New Portfolio Item</h1>
+        <h3>Add a New Portfolio Item</h3>
         <div class="col-md-12 col-lg-12">
             <form action="<?php echo htmlentities( $_SERVER[ 'PHP_SELF' ] ); ?>" method="post">
                 <div class="form-group row">

@@ -9,7 +9,7 @@
 
 	<body>
     <div class="container">
-		<h1>Edit Your Portfolio Item </h1>
+		<h3>Edit Your Portfolio Item </h3>
 		<?php
 			include "db.php";
 

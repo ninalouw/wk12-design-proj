@@ -21,7 +21,6 @@ $(function(){
         counter += 1;
         $slideshow.find("li.each").eq(counter - 1).removeClass("active");
         $slideActive = $slideshow.find("li.each").eq(counter).addClass('active').fadeIn(4000);
-        console.log($slideActive.size());
         if (!$slideActive.size()){
             counter = 0;
             $slideActive = $slideshow.find("li.each").first();
