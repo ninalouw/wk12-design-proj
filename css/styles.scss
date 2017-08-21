@@ -229,7 +229,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     font-size: $h2;
     text-align: center;
     font-weight:700;
-    // text-transform: uppercase;
     line-height: 8rem;
     @include margin-padding($def-margin, $def-padding);
 }
@@ -343,10 +342,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .card-content {
         max-width:500px;
     }
-  .card-image {
-      max-width:400px;
-      max-height: 400px;
-  }
+    .card-image {
+        max-width:400px;
+        max-height: 400px;
+    }
 
 }
 @media only screen and (max-width:1000px){
@@ -357,38 +356,36 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .about-img {
         transform: translate(-200px,0px) !important;
     }
-  .about-image-slider-container {
+    .about-image-slider-container {
         transform: translate(180px, -280px) !important;
-  }
+    }
     .content-flex-container-2 {
       flex-wrap: wrap !important;
       padding:25px !important;
-  }
-  .about-img-4 {
-      display:block !important;
-  }
+    }
+    .about-img-4 {
+        display:block !important;
+    }
 }
 @media only screen and (max-width:700px){
     .card-home {
-    width:300px;
-    display: flex;
-    flex-direction: column-reverse;
+        width:300px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
-  .card-content {
-    max-width:300px;
-  }
+    .card-content {
+        max-width:300px;
+    }
 
-  .card-image {
-      max-width:300px;
-  }
- .overlap-container {
-    width: 100%;
-    display: block;
- }
-//  .content-header-1 {
-//      display:none;
-//  }
+    .card-image {
+        max-width:300px;
+    }
+    .overlap-container {
+        width: 100%;
+        display: block;
+    }
+
 }
 
 @media only screen and (max-width:500px){
@@ -404,12 +401,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     }
 
     .about-img-2 {
-    // width: 250px;
-    // height: 250px;
-    // z-index: -2;
-    // margin: 100px;
-    // transform: translate(100px, -300px);
-    display:none !important;
+        display:none !important;
     }
 
     .about-header-2 h2 {
@@ -419,7 +411,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
         transform: translate(40px, 0px) !important;
         width:300px !important;
         height:300px !important;
-        // margin-left:25px !important;
     }
     .content-flex-container-2 {
         transform: translate(0px, 0px) !important;
@@ -448,7 +439,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 .content-flex-container-2 {
     display: flex;
-    // align-items: center;
     flex-direction: row;
     transform: translate(0px, -200px);
     @include margin-padding($def-margin, $def-padding);
@@ -457,8 +447,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    // flex-wrap: wrap;
-    // flex-direction: column;
 }
 
 
@@ -491,7 +479,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     height: 400px;
     z-index: -2;
     transform: translate(-300px, -200px);
-    // margin:15px;
 }
 
 .about-img-2 {
@@ -499,7 +486,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     height: 400px;
     z-index: -2;
     transform: translate(300px, -800px);
-    // margin: 15px;
 }
 .about-img-3 {
     width: 400px;
@@ -507,7 +493,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     z-index: -2;
     margin: 15px;
     margin-left:28px;
-    // transform: translate(300px, -500px);
 }
 
 .about-header-2 h2 {
@@ -575,8 +560,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 .gallery ul li.each { 
 	position: relative; 
-	float: left;
-	// transition: all .1s; 
+	float: left; 
 }
 .gallery ul li.each, .gallery ul li.each img { 
     width:100%;
@@ -669,7 +653,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     flex-wrap: wrap;
 }
 .port-card {
-    // border: black 0.5px solid;
     @include margin-padding($def-margin, 0px);
     @include soft-shadow;
     background-color: white;
@@ -707,7 +690,6 @@ hr {
     margin:0px;
 }
 .port-card img {
-    // flex-basis: 100%;
     width:100%;
     // height:100%;
 }
@@ -739,8 +721,6 @@ hr {
 .full-image-container{
     width:100%;
     position: relative;
-    // padding-top: 180px;
-    // padding-bottom: 160px;
     overflow: hidden;
 }
 .full-image {
@@ -831,7 +811,6 @@ hr {
     background-color: white;
     @include soft-shadow;
     padding:40px;
-    // width:600px;
 }
 
 .contact-container {
@@ -861,7 +840,6 @@ hr {
     font-family:$text-font;
     font-size: 2rem;
     color: $quote-button-color;
-    // line-height:6px;
 }
 #team-overlay {
     position: relative;
@@ -874,7 +852,6 @@ hr {
 }
 
 .contact-form {
-    // padding-top:50px;
     margin:20px;
 }
 

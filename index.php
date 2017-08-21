@@ -5,9 +5,8 @@
             <div class="section section-header">
                 <div class="parallax pattern-image">
                     <img class="hero-img" style="display:none;" src="img/new-work-hero.jpg" alt="hero image">
-                     <!-- <img src="img/hero.jpeg">  -->
                         <div class="image-slider-container">
-                        <!-- A wondrous gallery slider -->
+                        <!-- gallery slider -->
                             <div class="gallery">
                                 <ul>
                                     <li class="each">
@@ -52,11 +51,6 @@
             </div>
         </div> 
         <!-- rest of page content -->
-        <!-- <div class="content-header-1 row">
-            <div class="col-sm-12 col-md-12 col-lg-12 ">
-                <h2>We create meaningful digital and print products for restaurants</h2>
-            </div>
-        </div> -->
 
     <div class="container">
         <div class="content-header-2 row">

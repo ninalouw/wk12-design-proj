@@ -16,8 +16,6 @@
                 $queryResult = mysqli_query(db_connect(), $query);
 
                 if($queryResult) {
-                    // echo "<div class='col-sm-12 col-md-12 col-lg-12'>";
-
 
                     while($rowArray = mysqli_fetch_assoc($queryResult)) {
                             $id = $rowArray["id"];

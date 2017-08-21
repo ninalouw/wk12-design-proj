@@ -21,9 +21,6 @@
 
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contact-form">
         <form class="well form-horizontal" action=" " method="post"  id="contact_form">
-            <!-- <fieldset> -->
-            <!-- Form Name -->
-            <!-- <legend>Contact Us Today!</legend> -->
             <h3>Contact Us Today!</h3>
             <div class="form-group">
               <label class="col-md-4 control-label">Name</label>  
@@ -71,7 +68,6 @@
                 <button type="submit" name="submit" class="btn btn-primary" >Send <span class="glyphicon glyphicon-send"></span></button>
               </div>
             </div>
-            <!-- </fieldset> -->
         </form>
       </div>
 
