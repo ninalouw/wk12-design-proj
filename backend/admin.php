@@ -8,7 +8,7 @@
     <h3>Admin Panel</h3>
     <h3>Portfolio Table</h3>
         <?php 
-                include "db.php";
+                include "users_db.php";
                 
                 db_connect();
 

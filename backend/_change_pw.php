@@ -1,7 +1,7 @@
 <!--Include our head section-->
 <?php include 'back_header.php'?>
 <div class="log-in-form container" style="margin-top:100px">
-    <h1>Change Password </h1>
+    <h3>Change Password </h3>
 	<p>Please type your username, password and your new password to update your password.</p>
     <form action="<?php echo htmlentities( $_SERVER[ 'PHP_SELF' ] ); ?>" method="post">
         <div class="form-group">

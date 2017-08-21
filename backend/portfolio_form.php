@@ -163,7 +163,7 @@
 </div>
 <?php include 'back_footer.php'?>
             <?php
-                include "db.php";
+                include "users_db.php";
                 db_connect();
                 
                 if(isset($_POST['title']) && isset($_POST['image']) && isset($_POST['content']) && isset($_POST['client']) && isset($_POST['submit'])

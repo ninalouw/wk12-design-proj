@@ -1,6 +1,6 @@
 <?php include 'back_header.php'?>
 <?php
-	include "db.php";
+	include "users_db.php";
 
 	db_connect();
 

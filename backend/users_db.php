@@ -5,12 +5,15 @@
 
 		if(!isset($connection)) {
 			// Create Connection
-			$host = "localhost";
-			$user = "root";
-			$pw = "root";
-			$db = "users_db";
+			// $host = "localhost";
+			// $user = "root";
+			// $pw = "root";
+			// $db = "users_db";
 
-			$connection = mysqli_connect($host, $user, $pw, $db);
+			// $connection = mysqli_connect($host, $user, $pw, $db);
+			$configArray = parse_ini_file("../../../con/config.ini");
+			$connection = mysqli_connect($configArray["host"], $configArray["username"], $configArray["password"], $configArray["database"] );
+
 
 			if(!$connection) {
 				return mysqli_connect_error();

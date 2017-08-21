@@ -1,7 +1,7 @@
 <?php include 'back_header.php'?>
 <?php
 	// DELETE
-	include "db.php";
+	include "users_db.php";
 
 	db_connect();
 
