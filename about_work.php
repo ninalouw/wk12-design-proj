@@ -15,10 +15,10 @@
             </div>
         </div> 
 
-    <div class="container">
+    <div class="container about-work-container">
 
-        <div class="row port-card-container">
-            <div class="port-card col-md-12 col-lg-12 col-sm-12">
+        <div class="row about-work-card-container">
+            <div class="about-work-card col-md-12 col-lg-12 col-sm-12">
                 <img class="img-responsive about-work-img" src="img/how-work-1.jpg" alt= 'portfolio image'>
                 <p class="text-muted">Phase 1</p>
                 <h3>Research & Strategy</h3>
@@ -35,8 +35,8 @@
             </div>
         </div>
 
-        <div class="row port-card-container">
-            <div class="port-card col-md-12 col-lg-12 col-sm-12">
+        <div class="row about-work-card-container">
+            <div class="about-work-card col-md-12 col-lg-12 col-sm-12">
                 <img class="img-responsive about-work-img" src="img/about-work-3.jpg" alt= 'portfolio image'>
                 <p class="text-muted">Phase 2</p>
                 <h3>Design & Branding</h3>
@@ -53,8 +53,8 @@
             </div>
         </div>
 
-        <div class="row port-card-container">
-            <div class="port-card col-md-12 col-lg-12 col-sm-12">
+        <div class="row about-work-card-container">
+            <div class="about-work-card col-md-12 col-lg-12 col-sm-12">
                 <img class="img-responsive about-work-img" src="img/about-work-2.jpg" alt= 'portfolio image'>
                 <p class="text-muted">Phase 3</p>
                 <h3>Work Delegation</h3>
@@ -71,8 +71,8 @@
             </div>
         </div>
 
-        <div class="row port-card-container">
-            <div class="port-card col-md-12 col-lg-12 col-sm-12">
+        <div class="row about-work-card-container">
+            <div class="about-work-card col-md-12 col-lg-12 col-sm-12">
                 <img class="img-responsive about-work-img" src="img/about-work-4.jpg" alt= 'portfolio image'>
                 <p class="text-muted">Phase 4</p>
                 <h3>Build & Develop</h3>
@@ -89,8 +89,8 @@
             </div>
         </div>
 
-        <div class="row port-card-container">
-            <div class="port-card col-md-12 col-lg-12 col-sm-12">
+        <div class="row about-work-card-container">
+            <div class="about-work-card col-md-12 col-lg-12 col-sm-12">
                 <img class="img-responsive about-work-img" src="img/about-work-6.jpg" alt= 'portfolio image'>
                 <p class="text-muted">Phase 5</p>
                 <h3>Launch</h3>
