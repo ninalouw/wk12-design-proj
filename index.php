@@ -52,7 +52,7 @@
         </div> 
         <!-- rest of page content -->
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="content-header-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12 ">
                 <h2>Client Work</h2>
