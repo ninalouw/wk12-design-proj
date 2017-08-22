@@ -24,7 +24,7 @@
 <?php include 'back_footer.php'?>
 
 <?php
-    include "users_db.php";
+    include "backend_db.php";
                 
     db_connect();
     // Store username in username if login was pressed

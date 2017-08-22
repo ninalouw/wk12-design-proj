@@ -974,6 +974,7 @@ hr {
   .design-image {
       width:250px;
       height:250px;
+      margin-top: 20px;
   }
 
   .circle-img {
@@ -994,6 +995,13 @@ hr {
         padding: 10px;
     }
     .about-work-card h3 {
+        margin: 0px;
+        padding: 5px;
+    }
+    .port-card {
+        padding: 15px;
+    }
+    .port-card h3, p {
         margin: 0px;
         padding: 5px;
     }
