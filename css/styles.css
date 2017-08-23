@@ -221,7 +221,7 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 }
 
 .card-content h3, p {
-  padding-top: 15px !important;
+  padding-top: 0px !important;
   padding-bottom: 15px !important;
   margin: 0px !important;
 }
@@ -756,6 +756,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
+    max-width: 600px;
   }
   .card-overlap {
     margin-left: 0px;
@@ -769,7 +770,7 @@ hr {
   }
   .card-image {
     width: 200px;
-    height: 250px;
+    height: 200px;
   }
   .card-content {
     padding: 0px;
@@ -986,5 +987,9 @@ hr {
     display: block !important;
     width: 300px !important;
     height: 300px !important;
+  }
+  .card-content p {
+    padding-bottom: 5px !important;
+    height: 160px;
   }
 }

@@ -19,7 +19,7 @@
 
                     if( $numberOfRows > 0 ){
                         echo "<div class='table-responsive'>";
-                        echo "<table class='table table-condensed table-striped table-hover'>";
+                        echo "<table class='table table-condensed table-striped table-hover table-responsive'>";
                         echo "<tr class='info' style='width:100%;'>
                                     <th>ID</th>
                                     <th>Title</th> 

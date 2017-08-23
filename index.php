@@ -61,7 +61,7 @@
         <!--four cards of work content  -->
         <div class="overlap-container">
             <div class="row card-home">
-                <div class="card-content col-sm-12 col-xs-12">
+                <div class="card-content">
                     <h3>33 Degrees</h3>
                     <p>A fresh redesign of the 33 Degrees food ordering interface.
                     The client came to us for a complete rebranding and rebuilding
@@ -73,7 +73,7 @@
             </div>
 
             <div class="row card-home card-overlap">
-                <div class="card-content col-sm-12 col-xs-12">
+                <div class="card-content">
                     <h3>Maple Food</h3>
                     <p>A fresh redesign of the Maple ordering interface.
                     The client came to us for a rebuilding
@@ -87,7 +87,7 @@
 
         <div class="overlap-container">
             <div class="row card-home">
-                <div class="card-content col-sm-12 col-xs-12">
+                <div class="card-content">
                     <h3>Block 16</h3>
                     <p>A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
                     casual family-restaurant.
@@ -98,7 +98,7 @@
             </div>
 
             <div class="row card-home card-overlap">
-                <div class="card-content col-sm-12 col-xs-12">
+                <div class="card-content">
                     <h3>Food Finder</h3>
                     <p>A great project for Food Finder Foursquare app. We rebuilt their mobile app to provide quick delivery of top-quality food.
                     </p>
