@@ -10,7 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Box Spring Studios</title>
+    <!-- <title>Box Spring Studios</title> -->
+    <title>VANARTS STUDENT MOCK PROJECT SITE</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <!-- Bootstrap -->
    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">

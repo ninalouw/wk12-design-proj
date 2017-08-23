@@ -272,178 +272,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 .card-content h3 {
     font-size: $card-h3;
 }
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 768px) {
-  /* Navbar positioning*/
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-}
-
-@media only screen and (min-width: 1350px){
-    .card-image {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .overlap-container {
-        width:100%;
-        display:flex;
-        justify-content: center;
-    }
-
-    .card-home {
-        width:100%;
-        height:100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        // margin:20px;
-    }
-    .card-overlap {
-        margin-left: 0px;
-        margin-right: 0px;
-        transform: translate(-30px, 90px);
-        padding-left: 40px;
-        margin-bottom: 100px;
-    }
-    .content-header-2 {
-        padding-top:60px;
-    }
-
-    
-    .card-image {
-        width:200px;
-        height:250px;
-    }
-    .card-content {
-        padding:0px;
-    }
-
-
-}
-@media only screen and (max-width: 900px) {
-    .overlap-container {
-        width:100%;
-        display:flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    .card-home {
-        width:500px;
-        height:100%;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .card-content {
-        max-width:500px;
-    }
-    .card-image {
-        max-width:400px;
-        max-height: 400px;
-    }
-
-}
-@media only screen and (max-width:1000px){
-    .image-slider-container .gallery ul li.each.active, .image-slider-container .gallery ul li.each.active img { 
-        height:900px !important;
-        width:100%;
-    }
-    .about-img {
-        transform: translate(-200px,0px) !important;
-    }
-    .about-image-slider-container {
-        transform: translate(180px, -280px) !important;
-    }
-    .content-flex-container-2 {
-      flex-wrap: wrap !important;
-      padding:25px !important;
-    }
-    .about-img-4 {
-        display:block !important;
-    }
-    .card-content p {
-        padding:5px;
-        padding-bottom:15px;
-    }
-}
-@media only screen and (max-width:700px){
-    .card-home {
-        width:300px;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .card-content {
-        max-width:300px;
-    }
-
-    .card-image {
-        max-width:300px;
-    }
-    .overlap-container {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-
-}
-
-@media only screen and (max-width:500px){
-    .image-slider-container{
-        display:none !important;
-    }
-    .hero-img {
-        display:block !important;
-        height:90%;
-    }
-    .about-img {
-        display:none !important;
-    }
-
-    .about-img-2 {
-        display:none !important;
-    }
-
-    .about-header-2 h2 {
-        transform: translate(0px, 0px) !important;
-    }
-    .about-image-slider-container {
-        transform: translate(40px, 0px) !important;
-        width:300px !important;
-        height:300px !important;
-    }
-    .content-flex-container-2 {
-        transform: translate(0px, 0px) !important;
-        padding:0px !important;
-    }
-    .about-img-3 {
-        display: block !important;
-        width: 300px !important;
-        height: 300px !important;
-    }
-}
-
 //footer
 .page-footer {
     background-color: $footer-color;
@@ -453,6 +281,11 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 //about page
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .content-flex-container{
     display: flex;
     align-items: center;
@@ -469,7 +302,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     align-items: center;
     justify-content: center;
 }
-
 
 .about-card {
     @include soft-shadow;
@@ -494,7 +326,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
  padding: 5px;
 }
 
-//refactor into mixin
 .about-img {
     width: 400px;
     height: 400px;
@@ -639,31 +470,9 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     margin-top:50px;
 }
 
-@media only screen and (max-width:767px){
-    .service-item {
-        text-align: center;
-    }
-    .service-item p {
-        max-width:600px;
-        text-align: center;
-    }
-   
-}
-@media only screen and (max-width:600px){
-    .content-flex-container-3 {
-        flex-wrap: wrap;
-    }
-    .contact-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-   
-}
-
-
 //portfolio page
 .body {
-     background-color:#F1EFE9;
+    background-color:#F1EFE9;
 }
 
 .port-card-container {
@@ -712,7 +521,6 @@ hr {
 }
 .port-card img {
     width:100%;
-    // height:100%;
 }
 
 .btn-quote {
@@ -805,7 +613,6 @@ hr {
 }
 
 //about_work page
-
 .about-work-container {
     display: flex;
     flex-direction: column;
@@ -835,8 +642,6 @@ hr {
 .about-work-card h3 {
     margin: 10px;
     padding: 5px;
-    // padding-left: 20px;
-    // padding-right: 20px;
 }
 
 .about-work-img {
@@ -860,7 +665,6 @@ hr {
 }
 
 //contact form
-
 .well {
     background-color: white;
     @include soft-shadow;
@@ -921,70 +725,223 @@ hr {
     @include card-shadow();
 }
 
-
-//mobile
-@media only screen and (max-width: 500px) {
-  //hero section
-  .section-header h1 {
-    font-size: $hero-h1-mobile;
-  }
-  .section-header p {
-    font-size: $hero-para-font-size-mobile;
-  }
-  nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    background-color: white;
-  }
-  .navbar-default {
-    background-color: white;
-    opacity: 0.5;
-  }
-  h1 {
-        font-size:5rem;
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media only screen and (min-width: 1350px){
+    .card-image {
+        width: 300px;
+        height: 300px;
     }
-  h2 {
-    font-size: 3.5rem !important;
-  }
-  h3 {
-      font-size: 3rem !important;
-  }
-  p {
-      font-size: 16px !important;
-      padding:5px;
-  }
-  .logo {
-    width:150px;
-    height:15px;
-  }
+}
 
-  .content-header-1 {
-      display:none;
-  }
+@media only screen and (min-width: 1200px) {
+    .overlap-container {
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
 
-  .overlay-image {
-    width: 250px;
-    height: 250px;
-    transform: translate(0px, 40px);
-  }
+    .card-home {
+        width:100%;
+        height:100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // margin:20px;
+    }
+    .card-overlap {
+        margin-left: 0px;
+        margin-right: 0px;
+        transform: translate(-30px, 90px);
+        padding-left: 40px;
+        margin-bottom: 100px;
+    }
+    .content-header-2 {
+        padding-top:60px;
+    }
 
-  .trio-image {
-      width:170px;
-      height:170px;
-      padding: 5px;
-  }
-  .design-image {
-      width:250px;
-      height:250px;
-      margin-top: 20px;
-  }
+    
+    .card-image {
+        width:200px;
+        height:250px;
+    }
+    .card-content {
+        padding:0px;
+    }
 
-  .circle-img {
-      width:170px;
-      height:170px;
-  }
 
-  .about-work-container {
-    width: 100%;
-    margin-top: 0px;
+}
+
+@media only screen and (max-width:1000px){
+    .image-slider-container .gallery ul li.each.active, .image-slider-container .gallery ul li.each.active img { 
+        height:900px !important;
+        width:100%;
+    }
+    .about-img {
+        transform: translate(-200px,0px) !important;
+    }
+    .about-image-slider-container {
+        transform: translate(180px, -280px) !important;
+    }
+    .content-flex-container-2 {
+      flex-wrap: wrap !important;
+      padding:25px !important;
+    }
+    .about-img-4 {
+        display:block !important;
+    }
+    .card-content p {
+        padding:5px;
+        padding-bottom:15px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .overlap-container {
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-home {
+        width:500px;
+        height:100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .card-content {
+        max-width:500px;
+    }
+    .card-image {
+        max-width:400px;
+        max-height: 400px;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+    .service-item {
+        text-align: center;
+    }
+    .service-item p {
+        max-width:600px;
+        text-align: center;
+    }
+      /* Navbar positioning*/
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+   
+}
+
+@media only screen and (max-width:700px){
+    .card-home {
+        width:300px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card-content {
+        max-width:300px;
+    }
+
+    .card-image {
+        max-width:300px;
+    }
+    .overlap-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width:600px){
+    .content-flex-container-3 {
+        flex-wrap: wrap;
+    }
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+}
+
+/*mobile styles */
+@media only screen and (max-width:500px){
+    //hero section
+    .section-header h1 {
+        font-size: $hero-h1-mobile;
+    }
+    .section-header p {
+        font-size: $hero-para-font-size-mobile;
+    }
+    nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        background-color: white;
+    }
+    .navbar-default {
+        background-color: white;
+        opacity: 0.5;
+    }
+    h1 {
+            font-size:5rem;
+        }
+    h2 {
+        font-size: 3.5rem !important;
+    }
+    h3 {
+        font-size: 3rem !important;
+    }
+    p {
+        font-size: 16px !important;
+        padding:5px;
+    }
+    .logo {
+        width:150px;
+        height:15px;
+    }
+
+    .content-header-1 {
+        display:none;
+    }
+
+    .overlay-image {
+        display:none;
+    }
+
+    .trio-image {
+        width:170px;
+        height:170px;
+        padding: 5px;
+    }
+    .design-image {
+        width:250px;
+        height:250px;
+        margin-top: 20px;
+    }
+
+    .circle-img {
+        width:170px;
+        height:170px;
+    }
+
+    .about-work-container {
+        width: 100%;
+        margin-top: 0px;
     }
     .about-work-img {
         width: 100%;
@@ -1006,4 +963,38 @@ hr {
         padding: 5px;
     }
 
+    .image-slider-container{
+        display:none !important;
+    }
+    .hero-img {
+        display:block !important;
+        height:90%;
+    }
+    .about-img {
+        display:none !important;
+    }
+
+    .about-img-2 {
+        display:none !important;
+    }
+
+    .about-header-2 h2 {
+        transform: translate(0px, 0px) !important;
+    }
+    .about-image-slider-container {
+        transform: translate(40px, 0px) !important;
+        width:300px !important;
+        height:300px !important;
+    }
+    .content-flex-container-2 {
+        transform: translate(0px, 0px) !important;
+        padding:0px !important;
+    }
+    .about-img-3 {
+        display: block !important;
+        width: 300px !important;
+        height: 300px !important;
+    }
+
 }
+

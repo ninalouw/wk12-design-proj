@@ -65,7 +65,10 @@
                                 echo "<td><img style='width:60px; height:40px' src='".$heroImage." '></td>";
                                 echo "<td>".$projSummary."</td>";
                                 echo "<td>".$finalSummary."</td>";
-                                echo "<td><img style='width:40px; height:40px margin:2px;' src='".$image1." '><img style='width:40px; height:40px margin:2px;' src='".$image2." '><img style='width:40px; height:40px margin:2px;' src='".$image3." '></td>";
+                                echo "<td><img style='width:40px; height:40px margin:2px;' src='".$image1." '>
+                                            <img style='width:40px; height:40px margin:2px;' src='".$image2." '>
+                                            <img style='width:40px; height:40px margin:2px;' src='".$image3." '>
+                                      </td>";
                                 echo "<td>".$designProcess."</td>";
                                 echo "<td><img style='width:40px; height:40px' src='".$design_image1." '><img style='width:40px; height:40px' src='".$design_image2." '></td>";
                                 echo "<td><img style='width:40px; height:40px' src='".$clientImage." '></td>";
