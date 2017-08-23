@@ -4,8 +4,7 @@
 	session_start();
 ?>
 <body>
-<div style="margin-top:100px; margin:20px;">
-    <h3>Admin Panel</h3>
+<div class="container-fluid admin-container">
     <h3>Portfolio Table</h3>
         <?php 
                 include "backend_db.php";

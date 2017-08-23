@@ -1,0 +1,31 @@
+        body, h1, h3, p, table {
+            font-family:'Roboto', Helvetica, sans-serif !important;
+        }
+        .navbar-default .navbar-brand {
+            color: #fff;
+        }
+        .navbar-default {
+            background-color: #4E409C;
+            border-color:#9013FE ;
+        }
+        .navbar-default .navbar-collapse {
+            background-color:#4E409C; 
+            color: white !important; 
+            /* margin-bottom:50px; */
+        }
+        nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+            color: #9013FE;
+        }
+        .navbar-default .navbar-brand:hover {
+            color:#9013FE;
+            background-color: transparent;
+        }
+        .navbar-default .navbar-nav>li>a {
+            color: #fff;
+        }
+        .admin-container {
+            margin-top:80px;
+        }
+        .nav li {
+            color: white;
+        }

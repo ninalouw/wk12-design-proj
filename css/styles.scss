@@ -920,7 +920,9 @@ hr {
     }
 
     .overlay-image {
-        display:none;
+       width: 250px;
+        height: 250px;
+        transform: translate(0px, 40px);
     }
 
     .trio-image {

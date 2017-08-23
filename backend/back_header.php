@@ -16,14 +16,9 @@
     <!-- Bootstrap -->
    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/styles.css" rel="stylesheet">
-    <style>
-        body, h1, h3, p, table {
-            font-family:'Roboto', Helvetica, sans-serif !important;
-        }
-    </style>
+     <link href="../css/backend.css" rel="stylesheet"> 
   </head>
-        <nav class="navbar navbar-fixed-top navbar-mobile navbar-default" role="navigation" style="background-color:#adf; margin-bottom:50px;">
+        <nav class="navbar navbar-fixed-top navbar-mobile navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
