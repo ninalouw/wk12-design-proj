@@ -221,9 +221,15 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
 }
 
 .card-content h3, p {
-  padding-top: 0px !important;
-  padding-bottom: 15px !important;
-  margin: 0px !important;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  margin: 0px;
+}
+
+.card-p {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  margin: 0px;
 }
 
 .card-content h3 {
@@ -287,8 +293,9 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   padding: 20px;
 }
 
-.about-card-content-2 p {
-  padding: 5px;
+.about-p {
+  padding: 10px;
+  margin: 0px;
 }
 
 .about-card-content p {
@@ -443,8 +450,9 @@ nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   margin-bottom: 20px;
 }
 
-.service-item p {
-  padding: 5px;
+.service-item-p {
+  padding: 10px;
+  margin: 0px;
 }
 
 .services-form {
@@ -484,13 +492,13 @@ hr {
   text-align: center;
   border-radius: 50%;
   background-color: #9013FE;
-  padding: 20px;
   -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.17);
   border: none;
   color: white;
   padding: 15px 20px;
+  margin-left: 30px;
 }
 
 .btn-circle:hover {
@@ -507,10 +515,6 @@ hr {
   padding: 5px;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.port-card h3 {
-  margin: 0px;
 }
 
 .port-card img {
@@ -639,8 +643,8 @@ hr {
   background-color: white;
 }
 
-.about-work-card h3 {
-  margin: 10px;
+.about-work-card-h3 {
+  margin: 25px;
   padding: 5px;
 }
 
@@ -819,6 +823,9 @@ hr {
   .card-content {
     max-width: 500px;
   }
+  .card-content h3 {
+    padding-top: 15px;
+  }
   .card-image {
     max-width: 400px;
     max-height: 400px;
@@ -956,7 +963,7 @@ hr {
   }
   .port-card h3, p {
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
   }
   .image-slider-container {
     display: none !important;

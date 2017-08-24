@@ -63,7 +63,7 @@
             <div class="row card-home">
                 <div class="card-content">
                     <h3>33 Degrees</h3>
-                    <p>A fresh redesign of the 33 Degrees food ordering interface.
+                    <p class="card-p">A fresh redesign of the 33 Degrees food ordering interface.
                     The client came to us for a complete rebranding and rebuilding
                     of their mobile app.
                     </p>
@@ -75,7 +75,7 @@
             <div class="row card-home card-overlap">
                 <div class="card-content">
                     <h3>Maple Food</h3>
-                    <p>A fresh redesign of the Maple ordering interface.
+                    <p class="card-p">A fresh redesign of the Maple ordering interface.
                     The client came to us for a rebuilding
                     of their mobile app.
                     </p>
@@ -89,7 +89,7 @@
             <div class="row card-home">
                 <div class="card-content">
                     <h3>Block 16</h3>
-                    <p>A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
+                    <p class="card-p">A fun and exciting website for Block 16 Street Food Restaurant. We recreated their brand as a 
                     casual family-restaurant.
                     </p>
                     <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
@@ -100,7 +100,7 @@
             <div class="row card-home card-overlap">
                 <div class="card-content">
                     <h3>Food Finder</h3>
-                    <p>A great project for Food Finder Foursquare app. We rebuilt their mobile app to provide quick delivery of top-quality food.
+                    <p class="card-p">A great project for Food Finder Foursquare app. We rebuilt their mobile app to provide quick delivery of top-quality food.
                     </p>
                     <button class="btn-primary"><a href="portfolio.php">View Project</a></button>
                 </div>

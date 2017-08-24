@@ -265,9 +265,14 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     max-width:500px;
 }
 .card-content h3, p {
-    padding-top: 0px !important;
-    padding-bottom: 15px !important;
-    margin:0px !important;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin:0px;
+}
+.card-p {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin:0px;
 }
 .card-content h3 {
     font-size: $card-h3;
@@ -318,8 +323,9 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     @include soft-shadow;
     @include margin-padding($def-margin, 20px);
 }
-.about-card-content-2 p {
-    padding:5px;
+.about-p {
+    padding: 10px;
+    margin: 0px;
 }
 .about-card-content p {
  font-size: $para-font-size;
@@ -459,8 +465,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 .service-item {
     margin-bottom:20px;
 }
-.service-item p {
-    padding:5px;
+
+.service-item-p {
+    padding: 10px;
+    margin: 0px;
 }
 
 .services-form {
@@ -496,11 +504,11 @@ hr {
     text-align: center;
     border-radius: 50%;
     background-color: $quote-button-color;
-    padding: 20px;
     @include soft-shadow;
     border:none;
     color: white;
     padding: 15px 20px;
+    margin-left: 30px;
 
 }
 .btn-circle:hover {
@@ -516,9 +524,7 @@ hr {
     padding-left: 20px;
     padding-right:20px;
 }
-.port-card h3{
-    margin:0px;
-}
+
 .port-card img {
     width:100%;
 }
@@ -639,8 +645,8 @@ hr {
     background-color: white;
 
 }
-.about-work-card h3 {
-    margin: 10px;
+.about-work-card-h3 {
+    margin: 25px;
     padding: 5px;
 }
 
@@ -814,6 +820,9 @@ hr {
     .card-content {
         max-width:500px;
     }
+    .card-content h3 {
+        padding-top: 15px;
+    }
     .card-image {
         max-width:400px;
         max-height: 400px;
@@ -962,7 +971,7 @@ hr {
     }
     .port-card h3, p {
         margin: 0px;
-        padding: 5px;
+        padding: 10px;
     }
 
     .image-slider-container{

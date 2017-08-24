@@ -11,18 +11,18 @@
         <div class="service-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <img class="img-circle" src="img/services-1.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Full Rebranding</h2>
-          <p>At Boxspring Studios we believe that you should make products that really mean something to your customers.
+          <p class="service-item-p">At Boxspring Studios we believe that you should make products that really mean something to your customers.
                Let us rebrand your company. Our teams bake transformative ways of working into your business along the way.</p>
         </div>
         <div class="service-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <img class="img-circle" src="img/services-3.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Print Design</h2>
-          <p>Boxspring Studios provides full print design services. We cater to all the design needs of your restaurant business, and can include everything from menus to logos and signage. We create new print branding materials - like menus, business cards and storefront decals.</p>
+          <p class="service-item-p">Boxspring Studios provides full print design services. We cater to all the design needs of your restaurant business, and can include everything from menus to logos and signage. We create new print branding materials - like menus, business cards and storefront decals.</p>
         </div>
         <div class="service-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <img class="img-circle" src="img/services-5.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Website</h2>
-          <p>We build websites and web applications that are customer-friendly and easily-maintainable. Turn your vision into reality. Exceptional software development, engineering and execution sets your company apart. Ship your product and stay responsive to customers’ changing needs.</p>
+          <p class="service-item-p">We build websites and web applications that are customer-friendly and easily-maintainable. Turn your vision into reality. Exceptional software development, engineering and execution sets your company apart. Ship your product and stay responsive to customers’ changing needs.</p>
         </div>
       </div>
 
@@ -30,17 +30,17 @@
         <div class="service-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <img class="img-circle" src="img/services-6.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Mobile App</h2>
-          <p>For clients wanting mobile application development, especially to integrate a food delivery service into their restaurant business, we provide in-house app development to your specifications. We can create apps for iOS, Android and are exploring React Native.</p>
+          <p class="service-item-p">For clients wanting mobile application development, especially to integrate a food delivery service into their restaurant business, we provide in-house app development to your specifications. We can create apps for iOS, Android and are exploring React Native.</p>
         </div>
         <div class="service-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <img class="img-circle" src="img/services-7.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Clothing</h2>
-          <p>We also offer branded clothing design, to fully create a coherent brand identity for your restaurant. We outsource this process to our sub-contractors, whose work is tried and trusted. We can also organise bulk clothing orders.</p>
+          <p class="service-item-p">We also offer branded clothing design, to fully create a coherent brand identity for your restaurant. We outsource this process to our sub-contractors, whose work is tried and trusted. We can also organise bulk clothing orders.</p>
         </div>
         <div class="service-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <img class="img-circle" src="img/services-2.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Interior Decoration</h2>
-          <p> Our interior designs will transform your restaurant and ensure that you have a coherent brand identity. We outsource this process to our sub-contractors, whose work is tried and trusted. We also offer custom storefront decal design and construction.</p>
+          <p class="service-item-p"> Our interior designs will transform your restaurant and ensure that you have a coherent brand identity. We outsource this process to our sub-contractors, whose work is tried and trusted. We also offer custom storefront decal design and construction.</p>
         </div>
       </div>
 
@@ -53,11 +53,11 @@
         <div class="about-card col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="about-card-content ">
                 <h3>Branding Package</h3>
-                <p> This package includes full rebranding of your restaurant business, and can include everything from
+                <p class="service-item-p"> This package includes full rebranding of your restaurant business, and can include everything from
                     print to interiors.
                 </p>
-                <p>Box Spring can create new print branding materials - like menus, business cards, place settings and storefront decals.</p>
-                <p>We also offer branded clothing design, interior redesign and an evaluation of your brand coherence and presence.
+                <p class="service-item-p">Box Spring can create new print branding materials - like menus, business cards, place settings and storefront decals.</p>
+                <p class="service-item-p">We also offer branded clothing design, interior redesign and an evaluation of your brand coherence and presence.
                 </p>
                 <ul class="list-group text-center">
                     <li class="list-group-item"><i class="glyphicon glyphicon-check"></i>&nbsp; Brand Evaluation</li>
@@ -76,11 +76,11 @@
         <div class="about-card col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="about-card-content ">
                 <h3>Design Package</h3>
-                <p> This package includes all design needs of your restaurant business, and can include everything from
+                <p class="service-item-p"> This package includes all design needs of your restaurant business, and can include everything from
                     menus to logos and signage.
                 </p>
-                <p>Box Spring can create new print branding materials, interior redesign, and a UX evaluation of your current site.</p>
-                <p>We also offer branded clothing design, interior redesign and an evaluation of your UX Design coherence and presence.
+                <p class="service-item-p">Box Spring can create new print branding materials, interior redesign, and a UX evaluation of your current site.</p>
+                <p class="service-item-p">We also offer branded clothing design, interior redesign and an evaluation of your UX Design coherence and presence.
                 </p>
                 <ul class="list-group text-center">
                     <li class="list-group-item"><i class="glyphicon glyphicon-check"></i>&nbsp; Logo</li>
@@ -101,10 +101,10 @@
         <div class="about-card col-xs-12 col-sm-12 col-md-9 col-lg-9">
             <div class="about-card-content ">
                 <h3>The Works Package</h3>
-                <p> This package includes full rebranding of your business, as well as a new website and possibly a mobile app.
+                <p class="service-item-p"> This package includes full rebranding of your business, as well as a new website and possibly a mobile app.
                 </p>
-                <p>Box Spring will create full print branding materials, and our developer team will design and develop a new website and a mobile application, depending on your needs.</p>
-                <p>We also offer SEO and marketing strategy advice, and website support after launch.
+                <p class="service-item-p">Box Spring will create full print branding materials, and our developer team will design and develop a new website and a mobile application, depending on your needs.</p>
+                <p class="service-item-p">We also offer SEO and marketing strategy advice, and website support after launch.
                 </p>
                 <ul class="list-group text-center">
                     <li class="list-group-item"><i class="glyphicon glyphicon-check"></i>&nbsp; Full Branding</li>
