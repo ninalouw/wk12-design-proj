@@ -44,9 +44,9 @@
         </div>
       </div>
 
-        <div class="services-h1">
-          <h2>Our Packages</h2>
-        </div>
+    <div class="services-h1">
+        <h2>Our Packages</h2>
+    </div>
 
     <div class="row content-flex-container-3">
 
@@ -121,82 +121,82 @@
         </div>
     </div>
 
-            <!-- form -->
-        <div class="services-form col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="container">
-                <form class="well form-horizontal" action=" " method="post"  id="contact_form">
-                    <fieldset>
-                    <legend>Submit a Request</legend>
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Name</label>  
-                        <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                        <input  name="name" placeholder="Name" class="form-control"  type="text" required>
+    <!-- form -->
+    <div class="services-form col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="container">
+            <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+                <fieldset>
+                <legend>Submit a Request</legend>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Name</label>  
+                    <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input  name="name" placeholder="Name" class="form-control"  type="text" required>
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">E-Mail</label>  
+                    <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                    <input name="email" placeholder="E-Mail Address" class="form-control"  type="text" required>
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Website or domain name</label>  
+                    <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+                    <input name="website" placeholder="Website or domain name" class="form-control" type="text">
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Which package are you interested in?</label>
+                    <div class="col-md-4">
+                        <div class="radio" required>
+                            <label>
+                                <input type="radio" name="package" value="branding" checked/> Branding package
+                            </label>
                         </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="package" value="design" /> Design Package
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="package" value="works" /> The Works Package
+                            </label>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">E-Mail</label>  
-                        <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                        <input name="email" placeholder="E-Mail Address" class="form-control"  type="text" required>
-                        </div>
-                        </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Project Description</label>
+                    <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                            <textarea class="form-control" name="description" placeholder="Project Description" required></textarea>
                     </div>
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Website or domain name</label>  
-                        <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
-                        <input name="website" placeholder="Website or domain name" class="form-control" type="text">
-                        </div>
-                        </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Which package are you interested in?</label>
-                        <div class="col-md-4">
-                            <div class="radio" required>
-                                <label>
-                                    <input type="radio" name="package" value="branding" checked/> Branding package
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="package" value="design" /> Design Package
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="package" value="works" /> The Works Package
-                                </label>
-                            </div>
-                        </div>
+                </div>
+                <!-- Success message -->
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label"></label>
+                    <div class="col-md-4">
+                    <button type="submit" name="submit" class="btn btn-primary" >Send <span class="glyphicon glyphicon-send"></span></button>
                     </div>
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">Project Description</label>
-                        <div class="col-md-4 inputGroupContainer">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                                <textarea class="form-control" name="description" placeholder="Project Description" required></textarea>
-                        </div>
-                        </div>
-                    </div>
-                    <!-- Success message -->
-                    <!-- Button -->
-                    <div class="form-group">
-                        <label class="col-md-4 control-label"></label>
-                        <div class="col-md-4">
-                        <button type="submit" name="submit" class="btn btn-primary" >Send <span class="glyphicon glyphicon-send"></span></button>
-                        </div>
-                    </div>
+                </div>
 
-                    </fieldset>
-                </form>
-            </div>
-            </div>
-        </div> 
+                </fieldset>
+            </form>
+        </div>
+        </div>
+    </div> 
 
 </div>
 <!-- Send email -->
@@ -207,8 +207,9 @@
 					 $_POST["description"] != "" AND  
 					 $_POST["package"] != "") {
 				
-                    sendMail($_POST["email"], $_POST["name"], $_POST["description"], $_POST["package"]);
+        sendMail($_POST["email"], $_POST["name"], $_POST["description"], $_POST["package"]);
     }
+    
     function sendMail($email, $name, $description, $package) {
 				$to = $email;
 				$subject = "Thanks for contacting us $name";
@@ -223,7 +224,7 @@
 				$message .= "<p style='text-align:center;'>Your project description is: $description</p>\n";
                 $message .= "<p style='text-align:center;'>We will get back to you as soon as possible regarding your project.</p>\n";
                 $message .= "<p style='text-align:center;'>All the best,</p>\n";
-                $message .= "<p style='text-align:center;'>Harriet from Boxpsring Studios</p>\n";
+                $message .= "<p style='text-align:center;'>Harriet from Boxspring Studios</p>\n";
 				$message .= "</body> </html>";
 
 				$headers = "MIME-Version: 1.0\r\n";

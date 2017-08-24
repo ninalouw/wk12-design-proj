@@ -111,7 +111,7 @@
 				$message .= "<p style='text-align:center;'>Your project description is: $description</p>\n";
         $message .= "<p style='text-align:center;'>We will get back to you as soon as possible regarding your project.</p>\n";
         $message .= "<p style='text-align:center;'>All the best,</p>\n";
-        $message .= "<p style='text-align:center;'>Harriet from Boxpsring Studios</p>\n";
+        $message .= "<p style='text-align:center;'>Harriet from Boxspring Studios</p>\n";
 				$message .= "</body> </html>";
 
 				$headers = "MIME-Version: 1.0\r\n";

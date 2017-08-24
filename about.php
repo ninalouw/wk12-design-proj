@@ -105,9 +105,7 @@
                         <button href="services.php" class="btn-primary"><a href="team.php">Meet Us</a></button>
                     </div>
                 </div>
-                    <!-- <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" -->
-                        <img class="about-img-3 img-responsive" src="img/maple-400-2.jpg" alt="photo">
-                    <!-- </div> -->
+                    <img class="about-img-3 img-responsive" src="img/maple-400-2.jpg" alt="photo">
                     <img style="display:none;" class="about-img-3 img-responsive" src="img/block-16-400.jpg" alt="photo">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4" id="our-services">
                     <div class="about-card-content-2 ">
